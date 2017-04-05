@@ -15,18 +15,6 @@
 			"version": "0.0.0"
 		},
 		"dataSources": {
-			"types": {
-				"uri": "model/types.json",
-				"type": "JSON"
-			},
-			"control_tables_values": {
-				"uri": "model/control_tables_values.json",
-				"type": "JSON"
-			},
-			"temp": {
-				"uri": "model/temp.json",
-				"type": "JSON"
-			},
 			"ZVIP_PROJECT_SRV": {
 				"uri": "/sap/opu/odata/sap/ZVIP_PROJECT_SRV/",
 				"type": "OData",
@@ -94,15 +82,15 @@
 			},
 			"Types": {
 				"type": "sap.ui.model.json.JSONModel",
-				"dataSource": "types"
+				"uri": "model/types.json"
 			},
 			"ControlValues": {
 				"type": "sap.ui.model.json.JSONModel",
-				"dataSource": "control_tables_values"
+				"uri": "model/control_tables_values.json"
 			},
 			"TempModel": {
 				"type": "sap.ui.model.json.JSONModel",
-				"dataSource": "temp"
+				"uri": "model/temp.json"
 			},
 			"oDataModel": {
 				"type": "sap.ui.model.odata.v2.ODataModel",
