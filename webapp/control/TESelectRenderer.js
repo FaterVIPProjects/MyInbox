@@ -1,3 +1,5 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
+
 /*!
  * UI development toolkit for HTML5 (OpenUI5)
  * (c) Copyright 2009-2016 SAP SE or an SAP affiliate company.

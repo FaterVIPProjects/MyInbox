@@ -1,3 +1,4 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"sap/m/DatePicker",
 	'sap/ui/commons/RichTooltip'

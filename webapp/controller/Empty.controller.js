@@ -1,3 +1,4 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"org/fater/app/framework/BaseController"
 ], function(Controller) {

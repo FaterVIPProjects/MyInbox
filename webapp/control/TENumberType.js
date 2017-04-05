@@ -1,3 +1,4 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"sap/ui/model/SimpleType",
 	"sap/ui/model/ValidateException"

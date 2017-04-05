@@ -1,3 +1,4 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"jquery.sap.global",
     "sap/ui/core/mvc/Controller",

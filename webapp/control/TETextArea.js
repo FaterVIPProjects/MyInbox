@@ -1,3 +1,4 @@
+/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TETextArea.
 sap.ui.define([
 		'sap/m/TextArea',
