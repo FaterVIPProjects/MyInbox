@@ -1,0 +1,81 @@
+[{
+	"Ekorg": "Ekorg 1",
+	"Ekotx": "Ekotx 1",
+	"Bukrs": "Bukrs 1",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 1')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 2",
+	"Ekotx": "Ekotx 2",
+	"Bukrs": "Bukrs 2",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 2')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 3",
+	"Ekotx": "Ekotx 3",
+	"Bukrs": "Bukrs 3",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 3')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 4",
+	"Ekotx": "Ekotx 4",
+	"Bukrs": "Bukrs 4",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 4')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 5",
+	"Ekotx": "Ekotx 5",
+	"Bukrs": "Bukrs 5",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 5')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 6",
+	"Ekotx": "Ekotx 6",
+	"Bukrs": "Bukrs 6",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 6')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 7",
+	"Ekotx": "Ekotx 7",
+	"Bukrs": "Bukrs 7",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 7')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 8",
+	"Ekotx": "Ekotx 8",
+	"Bukrs": "Bukrs 8",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 8')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 9",
+	"Ekotx": "Ekotx 9",
+	"Bukrs": "Bukrs 9",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 9')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}, {
+	"Ekorg": "Ekorg 10",
+	"Ekotx": "Ekotx 10",
+	"Bukrs": "Bukrs 10",
+	"__metadata": {
+		"uri": "PurchaseOrganizationSet('Ekorg 10')",
+		"type": "ZVIP_PROJECT_SRV.PurchaseOrganization"
+	}
+}]

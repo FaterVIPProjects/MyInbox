@@ -1,0 +1,141 @@
+[{
+	"Id": "Id 1",
+	"Status": "Status 1",
+	"RemainingDays": "RemainingDays 1",
+	"Value": "Value 1",
+	"MandatoryDoc": "MandatoryDoc 1",
+	"SupplierStatus": "SupplierStatus 1",
+	"SupplierId": "SupplierId 1",
+	"Name1": "Name1 1",
+	"ClusterId": "ClusterId 1",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 1')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 2",
+	"Status": "Status 2",
+	"RemainingDays": "RemainingDays 2",
+	"Value": "Value 2",
+	"MandatoryDoc": "MandatoryDoc 2",
+	"SupplierStatus": "SupplierStatus 2",
+	"SupplierId": "SupplierId 2",
+	"Name1": "Name1 2",
+	"ClusterId": "ClusterId 2",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 2')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 3",
+	"Status": "Status 3",
+	"RemainingDays": "RemainingDays 3",
+	"Value": "Value 3",
+	"MandatoryDoc": "MandatoryDoc 3",
+	"SupplierStatus": "SupplierStatus 3",
+	"SupplierId": "SupplierId 3",
+	"Name1": "Name1 3",
+	"ClusterId": "ClusterId 3",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 3')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 4",
+	"Status": "Status 4",
+	"RemainingDays": "RemainingDays 4",
+	"Value": "Value 4",
+	"MandatoryDoc": "MandatoryDoc 4",
+	"SupplierStatus": "SupplierStatus 4",
+	"SupplierId": "SupplierId 4",
+	"Name1": "Name1 4",
+	"ClusterId": "ClusterId 4",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 4')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 5",
+	"Status": "Status 5",
+	"RemainingDays": "RemainingDays 5",
+	"Value": "Value 5",
+	"MandatoryDoc": "MandatoryDoc 5",
+	"SupplierStatus": "SupplierStatus 5",
+	"SupplierId": "SupplierId 5",
+	"Name1": "Name1 5",
+	"ClusterId": "ClusterId 5",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 5')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 6",
+	"Status": "Status 6",
+	"RemainingDays": "RemainingDays 6",
+	"Value": "Value 6",
+	"MandatoryDoc": "MandatoryDoc 6",
+	"SupplierStatus": "SupplierStatus 6",
+	"SupplierId": "SupplierId 6",
+	"Name1": "Name1 6",
+	"ClusterId": "ClusterId 6",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 6')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 7",
+	"Status": "Status 7",
+	"RemainingDays": "RemainingDays 7",
+	"Value": "Value 7",
+	"MandatoryDoc": "MandatoryDoc 7",
+	"SupplierStatus": "SupplierStatus 7",
+	"SupplierId": "SupplierId 7",
+	"Name1": "Name1 7",
+	"ClusterId": "ClusterId 7",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 7')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 8",
+	"Status": "Status 8",
+	"RemainingDays": "RemainingDays 8",
+	"Value": "Value 8",
+	"MandatoryDoc": "MandatoryDoc 8",
+	"SupplierStatus": "SupplierStatus 8",
+	"SupplierId": "SupplierId 8",
+	"Name1": "Name1 8",
+	"ClusterId": "ClusterId 8",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 8')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 9",
+	"Status": "Status 9",
+	"RemainingDays": "RemainingDays 9",
+	"Value": "Value 9",
+	"MandatoryDoc": "MandatoryDoc 9",
+	"SupplierStatus": "SupplierStatus 9",
+	"SupplierId": "SupplierId 9",
+	"Name1": "Name1 9",
+	"ClusterId": "ClusterId 9",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 9')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}, {
+	"Id": "Id 10",
+	"Status": "Status 10",
+	"RemainingDays": "RemainingDays 10",
+	"Value": "Value 10",
+	"MandatoryDoc": "MandatoryDoc 10",
+	"SupplierStatus": "SupplierStatus 10",
+	"SupplierId": "SupplierId 10",
+	"Name1": "Name1 10",
+	"ClusterId": "ClusterId 10",
+	"__metadata": {
+		"uri": "ScadenziarioSet('Id 10')",
+		"type": "ZVIP_PROJECT_SRV.Scadenziario"
+	}
+}]

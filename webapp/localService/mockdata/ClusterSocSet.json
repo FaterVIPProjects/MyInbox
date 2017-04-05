@@ -1,0 +1,151 @@
+[{
+	"ClusterId": "ClusterId 1",
+	"Bukrs": "Bukrs 1",
+	"Ekorg": "Ekorg 1",
+	"Resp": "Resp 1",
+	"RespAnag": "RespAnag 1",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 1',Bukrs='Bukrs 1',Ekorg='Ekorg 1')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 1',Bukrs='Bukrs 1',Ekorg='Ekorg 1')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 2",
+	"Bukrs": "Bukrs 2",
+	"Ekorg": "Ekorg 2",
+	"Resp": "Resp 2",
+	"RespAnag": "RespAnag 2",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 2',Bukrs='Bukrs 2',Ekorg='Ekorg 2')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 2',Bukrs='Bukrs 2',Ekorg='Ekorg 2')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 3",
+	"Bukrs": "Bukrs 3",
+	"Ekorg": "Ekorg 3",
+	"Resp": "Resp 3",
+	"RespAnag": "RespAnag 3",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 3',Bukrs='Bukrs 3',Ekorg='Ekorg 3')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 3',Bukrs='Bukrs 3',Ekorg='Ekorg 3')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 4",
+	"Bukrs": "Bukrs 4",
+	"Ekorg": "Ekorg 4",
+	"Resp": "Resp 4",
+	"RespAnag": "RespAnag 4",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 4',Bukrs='Bukrs 4',Ekorg='Ekorg 4')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 4',Bukrs='Bukrs 4',Ekorg='Ekorg 4')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 5",
+	"Bukrs": "Bukrs 5",
+	"Ekorg": "Ekorg 5",
+	"Resp": "Resp 5",
+	"RespAnag": "RespAnag 5",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 5',Bukrs='Bukrs 5',Ekorg='Ekorg 5')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 5',Bukrs='Bukrs 5',Ekorg='Ekorg 5')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 6",
+	"Bukrs": "Bukrs 6",
+	"Ekorg": "Ekorg 6",
+	"Resp": "Resp 6",
+	"RespAnag": "RespAnag 6",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 6',Bukrs='Bukrs 6',Ekorg='Ekorg 6')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 6',Bukrs='Bukrs 6',Ekorg='Ekorg 6')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 7",
+	"Bukrs": "Bukrs 7",
+	"Ekorg": "Ekorg 7",
+	"Resp": "Resp 7",
+	"RespAnag": "RespAnag 7",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 7',Bukrs='Bukrs 7',Ekorg='Ekorg 7')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 7',Bukrs='Bukrs 7',Ekorg='Ekorg 7')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 8",
+	"Bukrs": "Bukrs 8",
+	"Ekorg": "Ekorg 8",
+	"Resp": "Resp 8",
+	"RespAnag": "RespAnag 8",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 8',Bukrs='Bukrs 8',Ekorg='Ekorg 8')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 8',Bukrs='Bukrs 8',Ekorg='Ekorg 8')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 9",
+	"Bukrs": "Bukrs 9",
+	"Ekorg": "Ekorg 9",
+	"Resp": "Resp 9",
+	"RespAnag": "RespAnag 9",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 9',Bukrs='Bukrs 9',Ekorg='Ekorg 9')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 9',Bukrs='Bukrs 9',Ekorg='Ekorg 9')/Company"
+		}
+	}
+}, {
+	"ClusterId": "ClusterId 10",
+	"Bukrs": "Bukrs 10",
+	"Ekorg": "Ekorg 10",
+	"Resp": "Resp 10",
+	"RespAnag": "RespAnag 10",
+	"__metadata": {
+		"uri": "ClusterSocSet(ClusterId='ClusterId 10',Bukrs='Bukrs 10',Ekorg='Ekorg 10')",
+		"type": "ZVIP_PROJECT_SRV.ClusterCom"
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "ClusterSocSet(ClusterId='ClusterId 10',Bukrs='Bukrs 10',Ekorg='Ekorg 10')/Company"
+		}
+	}
+}]

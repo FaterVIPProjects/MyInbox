@@ -1,0 +1,91 @@
+<mvc:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	controllerName="org.fater.app.controller.SurveyList"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page
+		title="{i18n>participation}"
+		id="Master" 
+		showNavButton="false" 
+		navButtonPress="onNavBack">
+		<subHeader>
+			<Toolbar>
+				<SearchField 
+					showRefreshButton="{device>/isNoTouch}"
+					search="onSearch"
+					id="searchField" />
+			</Toolbar>
+		</subHeader>
+		<content>
+			<PullToRefresh
+				id="pullToRefresh"
+				visible="{device>/isTouch}"
+				refresh="handleRefresh" />
+			<List id="surveyList" class="sapUiResponsiveMargin" width="auto"
+				mode="{device>listMode}" growing="true" growingThreshold="10"
+				growingScrollToLoad="true"
+				updateFinished="onMasterListUpdateFinish">
+				<ObjectListItem
+					visible="false"
+					intro="{i18n>Cluster}: {oDataModel>Cluster/Name}"
+					title="{
+							parts: [
+								{path: 'oDataModel>ParticipationId'},
+								{path: 'oDataModel>Supplier/Name1'},
+								{path: 'user>/Role'}
+							],	
+							formatter: '.formatter.surveyListTitle'
+					}" 
+					type="Navigation" 
+					press="onListItemPress">
+					<firstStatus>
+						<ObjectStatus
+							state="Success"
+							text="{
+									parts: [
+										{path: 'oDataModel>Status'},
+										{path: 'oDataModel>StatusChange'},
+										{path: 'oDataModel>Editbysupplier'},
+										{path: 'user>/Role'}
+									],	
+									formatter: '.formatter.participationStatus'
+							}"/>
+					</firstStatus>
+					<attributes>
+						<ObjectAttribute 
+							visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} }"
+							class="overflowVisible"
+							text="{oDataModel>ParticipationId}"/>
+						<ObjectAttribute 
+							visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} }"
+							class="overflowVisible"
+							text="{
+								path: 'oDataModel>Type',
+								formatter: '.formatter.participationType'
+							}"/>
+						<ObjectAttribute 
+							class="overflowVisible"
+							text="{
+								parts: [
+									{path: 'oDataModel>ExpireT'},
+									{path: 'i18n>expireOn'}
+								],	
+								formatter: '.formatter.formattedDate'
+						}"/>
+					</attributes>
+				</ObjectListItem>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button icon="sap-icon://filter" 
+							visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} }"
+							press="onFilterParticipationTypePress"  />
+				<Button icon="sap-icon://sort"
+					press="onSortButtonPress"/>				
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

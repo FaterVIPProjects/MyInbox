@@ -1,0 +1,121 @@
+[{
+	"SupplierId": "SupplierId 1",
+	"Lifnr": "Lifnr 1",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 1',Lifnr='Lifnr 1')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 1',Lifnr='Lifnr 1')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 2",
+	"Lifnr": "Lifnr 2",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 2',Lifnr='Lifnr 2')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 2',Lifnr='Lifnr 2')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 3",
+	"Lifnr": "Lifnr 3",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 3',Lifnr='Lifnr 3')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 3',Lifnr='Lifnr 3')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 4",
+	"Lifnr": "Lifnr 4",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 4',Lifnr='Lifnr 4')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 4',Lifnr='Lifnr 4')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 5",
+	"Lifnr": "Lifnr 5",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 5',Lifnr='Lifnr 5')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 5',Lifnr='Lifnr 5')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 6",
+	"Lifnr": "Lifnr 6",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 6',Lifnr='Lifnr 6')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 6',Lifnr='Lifnr 6')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 7",
+	"Lifnr": "Lifnr 7",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 7',Lifnr='Lifnr 7')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 7',Lifnr='Lifnr 7')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 8",
+	"Lifnr": "Lifnr 8",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 8',Lifnr='Lifnr 8')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 8',Lifnr='Lifnr 8')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 9",
+	"Lifnr": "Lifnr 9",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 9',Lifnr='Lifnr 9')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 9',Lifnr='Lifnr 9')/Supplier"
+		}
+	}
+}, {
+	"SupplierId": "SupplierId 10",
+	"Lifnr": "Lifnr 10",
+	"__metadata": {
+		"uri": "SupplierAssociatedSet(SupplierId='SupplierId 10',Lifnr='Lifnr 10')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAssociated"
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "SupplierAssociatedSet(SupplierId='SupplierId 10',Lifnr='Lifnr 10')/Supplier"
+		}
+	}
+}]

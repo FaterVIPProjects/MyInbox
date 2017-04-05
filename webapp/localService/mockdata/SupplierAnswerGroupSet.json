@@ -1,0 +1,91 @@
+[{
+	"GroupId": "GroupId 1",
+	"ParticipationId": "ParticipationId 1",
+	"Points": 7919,
+	"SurveyId": "SurveyId 1",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 1',ParticipationId='ParticipationId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 2",
+	"ParticipationId": "ParticipationId 2",
+	"Points": 7938,
+	"SurveyId": "SurveyId 2",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 2',ParticipationId='ParticipationId 2',SurveyId='SurveyId 2')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 3",
+	"ParticipationId": "ParticipationId 3",
+	"Points": 8889,
+	"SurveyId": "SurveyId 3",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 3',ParticipationId='ParticipationId 3',SurveyId='SurveyId 3')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 4",
+	"ParticipationId": "ParticipationId 4",
+	"Points": 1460,
+	"SurveyId": "SurveyId 4",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 4',ParticipationId='ParticipationId 4',SurveyId='SurveyId 4')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 5",
+	"ParticipationId": "ParticipationId 5",
+	"Points": 2927,
+	"SurveyId": "SurveyId 5",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 5',ParticipationId='ParticipationId 5',SurveyId='SurveyId 5')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 6",
+	"ParticipationId": "ParticipationId 6",
+	"Points": 1843,
+	"SurveyId": "SurveyId 6",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 6',ParticipationId='ParticipationId 6',SurveyId='SurveyId 6')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 7",
+	"ParticipationId": "ParticipationId 7",
+	"Points": 5941,
+	"SurveyId": "SurveyId 7",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 7',ParticipationId='ParticipationId 7',SurveyId='SurveyId 7')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 8",
+	"ParticipationId": "ParticipationId 8",
+	"Points": 7009,
+	"SurveyId": "SurveyId 8",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 8',ParticipationId='ParticipationId 8',SurveyId='SurveyId 8')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 9",
+	"ParticipationId": "ParticipationId 9",
+	"Points": 2349,
+	"SurveyId": "SurveyId 9",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 9',ParticipationId='ParticipationId 9',SurveyId='SurveyId 9')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}, {
+	"GroupId": "GroupId 10",
+	"ParticipationId": "ParticipationId 10",
+	"Points": 8325,
+	"SurveyId": "SurveyId 10",
+	"__metadata": {
+		"uri": "SupplierAnswerGroupSet(GroupId='GroupId 10',ParticipationId='ParticipationId 10',SurveyId='SurveyId 10')",
+		"type": "ZVIP_PROJECT_SRV.SupplierAnswerGroup"
+	}
+}]

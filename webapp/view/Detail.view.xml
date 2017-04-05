@@ -1,0 +1,334 @@
+<mvc:View	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m"
+	xmlns:semantic="sap.m.semantic"
+	controllerName="org.fater.app.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<semantic:DetailPage id="detailPage"
+		showFooter="false"
+		title="{i18n>qualificationProcess}">
+		<semantic:content>
+			<ObjectHeader
+				id="id"
+				title="{/Supplier/Name1}"
+				number="{
+						parts: [
+							{path: '/Status'},
+							{path: '/StatusChange'},
+							{path: '/Editbysupplier'},
+							{path: 'user>/Role'}
+						],	
+						formatter: '.formatter.participationDetailStatus'
+				}"
+				numberState="Success"
+				numberUnit=""
+				intro="{
+						parts: [
+							{path: '/Status'},
+							{path: 'i18n>supplierCode'},
+							{path: '/SupplierId'}
+						],	
+						formatter: '.formatter.supplierCode'
+				}"
+				icon="">
+				<attributes>
+					<ObjectAttribute
+						title="{i18n>participationId}"
+						text="{ParticipationId}"/>
+					<ObjectAttribute
+						title="{i18n>cluster}"
+						text="{Cluster/Name}"/>
+					<ObjectAttribute
+						visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} &amp;&amp; ${Status} !== ${Types>/participationStatus/I} &amp;&amp; ${Status} !== ${Types>/participationStatus/DQ} }"
+						title="{i18n>supplierQualificationType}"
+						text="{
+								path: 'Type',
+								formatter: '.formatter.participationType'
+						}"/>
+					<ObjectAttribute
+						visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} &amp;&amp; ${Status} !== ${Types>/participationStatus/I} &amp;&amp; ${Status} !== ${Types>/participationStatus/DQ} }"
+						title="{i18n>supplierStatus}"
+						text="{
+								path: 'Supplier/Status',
+								formatter: '.formatter.supplierStatus'
+						}"/>
+					<ObjectAttribute
+						visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} &amp;&amp; ${Status} !== ${Types>/participationStatus/I} &amp;&amp; ${Status} !== ${Types>/participationStatus/DQ} }"
+						title="{i18n>commercialReference}"
+						text="{CommercialReference>/Address/Firstname} {CommercialReference>/Address/Lastname}"/>
+					<ObjectAttribute
+						visible="{= ${user>/Role} !== ${Types>/userRoleTypes/SUPPLIER} &amp;&amp; ${Status} !== ${Types>/participationStatus/I} &amp;&amp; ${Status} !== ${Types>/participationStatus/DQ} }"
+						title="{i18n>supplierReference}"
+						text="{/Supplier/ContactName} {/Supplier/ContactSurname}"/>
+				</attributes>
+				<statuses>
+					<ObjectStatus
+						visible="{= ${ExpireT} !== null }"
+						title="{i18n>expireOn}"
+						text="{
+							parts: [
+								{path: 'ExpireT'}
+							],	
+							formatter: '.formatter.formattedDate'
+						}"/>
+					<ObjectStatus
+						visible="{= ${CreatedT} !== null }"
+						title="{i18n>insertOn}"
+						text="{
+							parts: [
+								{path: 'CreatedT'}
+							],	
+							formatter: '.formatter.formattedDate'
+						}"/>
+					<ObjectStatus
+						visible="{= ${SentT} !== null }"
+						title="{i18n>sentOn}"
+						text="{
+							parts: [
+								{path: 'SentT'}
+							],	
+							formatter: '.formatter.formattedDate'
+						}"/>		
+				</statuses>
+			</ObjectHeader>
+			<IconTabBar id="iconTabBar"
+				expandable="false"
+				selectedKey="0"
+				select="iconTabBarItemSelected">
+				<items>
+					<IconTabFilter 
+						id="filter_tab_welcome"
+						key="0"
+						visible="false"
+						text="{i18n>welcome}"
+						icon="sap-icon://hint">
+						<core:Fragment fragmentName="org.fater.app.view.fragment.survey.WelcomeTab" type="XML" />
+						
+					</IconTabFilter>
+					<IconTabFilter 
+						id="filter_tab_0"
+						key="1"
+						visible="false"
+						text="{i18n>score}"
+						count="{
+							parts:[
+								{path: 'Survey/GroupS/0'},
+								{path: 'Survey/GroupS/1'},
+								{path: 'Survey/GroupS/2'},
+								{path: 'Survey/GroupS/3'},
+								{path: 'Survey/GroupS/0/Points'},
+								{path: 'Survey/GroupS/1/Points'},
+								{path: 'Survey/GroupS/2/Points'},
+								{path: 'Survey/GroupS/3/Points'}
+							],
+							formatter: '.formatter.averagePoints'
+						}"
+						icon="sap-icon://approvals">
+						<core:Fragment fragmentName="org.fater.app.view.fragment.survey.Score" type="XML" />
+					</IconTabFilter>
+					
+					<IconTabFilter 
+						key="2"
+						id="survey_group_0"
+						text="{Survey/GroupS/0/Type}"
+						icon="sap-icon://manager">
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.IdentityRecord" type="XML" />
+						<Toolbar
+							visible="{= ${Survey/GroupS/0/QuestionS/}.length > 0 }">   
+							<Title text="{i18n>titleCompanyInformation}" titleStyle="H4" />
+							<ToolbarSpacer/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetScore}: {Survey/GroupS/0/TargetPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetThreshold}: {Survey/GroupS/0/ThresholdPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>weight}: {Survey/GroupS/0/Weight}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>score}:" class="sapUiSmallMarginEnd"/>
+							<Input visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" type="Number" liveChange="validationScore" value="{path: 'Survey/GroupS/0/Points', type: 'sap.ui.model.type.Integer'}" width="7%"/>
+							<HBox justifyContent="Center" visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }">
+								<core:Icon	src="sap-icon://circle-task-2"
+									color="{
+										parts:[
+											{path: 'Survey/GroupS/0/Points'},
+											{path: 'Survey/GroupS/0/TargetPoint'},
+											{path: 'Survey/GroupS/0/ThresholdPoint'}
+										],
+										formatter: '.formatter.color'
+									}"/>
+							</HBox>
+						</Toolbar>		
+						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+					</IconTabFilter>
+					
+					<IconTabFilter
+						key="3"
+						id="survey_group_1"
+						text="{Survey/GroupS/1/Type}"
+						icon="sap-icon://money-bills">
+						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.app.view.fragment.survey.FinancialData" type="XML" />
+						<Toolbar
+							visible="{= ${Survey/GroupS/1/QuestionS/}.length > 0 }">   
+							<Title text="{i18n>financialData}" titleStyle="H4" textAlign="Initial"/>
+							<ToolbarSpacer/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetScore}: {Survey/GroupS/1/TargetPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetThreshold}: {Survey/GroupS/1/ThresholdPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>weight}: {Survey/GroupS/1/Weight}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>score}:" class="sapUiSmallMarginEnd"/>
+							<Input visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" type="Number" liveChange="validationScore" value="{path: 'Survey/GroupS/1/Points', type: 'sap.ui.model.type.Integer'}" width="7%"/>
+							<HBox justifyContent="Center" visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }">
+								<core:Icon	src="sap-icon://circle-task-2"
+									color="{
+										parts:[
+											{path: 'Survey/GroupS/1/Points'},
+											{path: 'Survey/GroupS/1/TargetPoint'},
+											{path: 'Survey/GroupS/1/ThresholdPoint'}
+										],
+										formatter: '.formatter.color'
+									}"/>
+							</HBox>
+						</Toolbar>						
+						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+					</IconTabFilter>
+					
+					<IconTabFilter
+						key="4"
+						id="survey_group_2"
+						text="{Survey/GroupS/2/Type}"
+						icon="sap-icon://tree">
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.OrganizationContact" type="XML" />
+						<Toolbar
+							visible="{= ${Survey/GroupS/2/QuestionS/}.length > 0 }">   
+							<Title text="{i18n>plan}" titleStyle="H4" textAlign="Initial"/>
+							<ToolbarSpacer/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetScore}: {Survey/GroupS/2/TargetPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetThreshold}: {Survey/GroupS/2/ThresholdPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>weight}: {Survey/GroupS/2/Weight}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>score}:" class="sapUiSmallMarginEnd"/>
+							<Input visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" type="Number" liveChange="validationScore" value="{path: 'Survey/GroupS/2/Points', type: 'sap.ui.model.type.Integer'}" width="7%"/>
+							<HBox justifyContent="Center" visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }">
+								<core:Icon	src="sap-icon://circle-task-2"
+									color="{
+										parts:[
+											{path: 'Survey/GroupS/2/Points'},
+											{path: 'Survey/GroupS/2/TargetPoint'},
+											{path: 'Survey/GroupS/2/ThresholdPoint'}
+										],
+										formatter: '.formatter.color'
+									}"/>
+							</HBox>
+						</Toolbar>	
+						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+					</IconTabFilter>	
+					
+					<IconTabFilter
+						visible="{= ${Survey/GroupS/3/QuestionS/}.length > 0 }"
+						key="5"
+						id="survey_group_3"
+						text="{Survey/GroupS/3/Type}"
+						icon="sap-icon://activate">
+						<Toolbar>   
+							<Title text="{i18n>qualitySecurity}" titleStyle="H4" textAlign="Initial"/>
+							<ToolbarSpacer/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetScore}: {Survey/GroupS/3/TargetPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetThreshold}: {Survey/GroupS/3/ThresholdPoint}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>weight}: {Survey/GroupS/3/Weight}" class="sapUiSmallMarginEnd"/>
+							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>score}:" class="sapUiSmallMarginEnd"/>
+							<Input visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" type="Number" liveChange="validationScore" value="{path: 'Survey/GroupS/3/Points', type: 'sap.ui.model.type.Integer'}" width="7%"/>
+							<HBox justifyContent="Center" visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }">
+								<core:Icon	src="sap-icon://circle-task-2"
+									color="{
+										parts:[
+											{path: 'Survey/GroupS/3/Points'},
+											{path: 'Survey/GroupS/3/TargetPoint'},
+											{path: 'Survey/GroupS/3/ThresholdPoint'}
+										],
+										formatter: '.formatter.color'
+									}"/>
+							</HBox>
+						</Toolbar>
+						<core:Fragment binding="{Survey/GroupS/3/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+					</IconTabFilter>
+					
+					<IconTabFilter
+						visible="{= ${user>/Username} === ${SupplierRefId} || ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === true ) }"
+						key="6"
+						id="survey_group_all"
+						text="{i18n>allQuestionTitle}"
+						icon="sap-icon://document-text">
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.IdentityRecordReadOnly" type="XML" />
+						<Toolbar>   
+							<Title text="{i18n>titleCompanyInformation}" titleStyle="H4" textAlign="Initial"/>
+						</Toolbar>	
+						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.app.view.fragment.survey.FinancialDataReadOnly" type="XML" />
+						<Toolbar>   
+							<Title text="{i18n>financialData}" titleStyle="H4" textAlign="Initial"/>
+						</Toolbar>
+						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.OrganizationContactReadOnly" type="XML" />
+						<Toolbar>   
+							<Title text="{i18n>plan}" titleStyle="H4" textAlign="Initial"/>
+						</Toolbar>	
+						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<Toolbar visible="{= ${Survey/GroupS/3/QuestionS/}.length > 0 }">   
+							<Title text="{i18n>qualitySecurity}" titleStyle="H4" textAlign="Initial"/>
+						</Toolbar>
+						<core:Fragment 
+							binding="{Survey/GroupS/3/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+					</IconTabFilter>
+					
+					<IconTabFilter id="communicationTabFilter"
+						visible="false"
+						key="communicationTabFilter"
+						text="{i18n>communication}"
+						icon="sap-icon://feed">
+						<core:Fragment fragmentName="org.fater.app.view.fragment.Communication" type="XML" />
+					</IconTabFilter>					
+				</items>
+			</IconTabBar>
+		</semantic:content>
+		<semantic:messagesIndicator>
+			<semantic:MessagesIndicator press="onMessagesButtonPress"/>
+		</semantic:messagesIndicator>
+		<semantic:customFooterContent>  
+			<Button
+				press="onPrintPdfButtonPress"
+				type="Emphasized"
+				id="printPdf"
+				visible="{= ${user>/Username} === ${SupplierRefId} || ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === true ) }"
+				text="{i18n>printPdfButton}" />
+			<Button	
+				visible="{= ${Status} !== ${Types>/participationStatus/R} &amp;&amp; ( ( ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === true ) || ${user>/Role} === ${Types>/userRoleTypes/SUPPLIER} ) &amp;&amp; ( ${Status} === ${Types>/participationStatus/DQ} || ${Status} === ${Types>/participationStatus/I} || ${Status} === ${Types>/participationStatus/ES} ) )  }"
+				press="onSaveDraftSupplier"
+				type="Accept"
+				text="{i18n>saveDraftSupplier}" />
+			<Button
+				visible="{= ${Status} !== ${Types>/participationStatus/R} &amp;&amp; ${user>/Role} === ${Types>/userRoleTypes/SUPPLIER} }"
+				press="onSubmitButtonSupplier"
+				type="Accept"
+				text="{i18n>submitButtonSupplier}" />
+			<Button
+				visible="{= ${Status} !== ${Types>/participationStatus/R} &amp;&amp; ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} }"
+				press="onSubmitButtonSupplier"
+				type="Accept"
+				text="{i18n>complete}" />
+			<Button
+				visible="{= ${user>/Username} === ${CommercManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A1} || ${Status} === ${Types>/participationStatus/C2}) }"
+				press="onApproveButtonPress"
+				type="Accept"
+				text="{= ${i18n>approve} }"/>
+			<Button
+				visible="{= ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ( ${Status} === ${Types>/participationStatus/C} || ${Status} === ${Types>/participationStatus/C1} ) &amp;&amp; ${DoneByFater} === false ) || ( ${user>/Username} === ${CommercManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A1} || ${Status} === ${Types>/participationStatus/C2}) ) || ( ${user>/Username} === ${RegistryManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A2} || ${Status} === ${Types>/participationStatus/C3}) ) }"
+				press="onCompleteButtonPress"
+				type="Accept"
+				text="{= ${user>/Username} === ${CommercManagerId} ? ${i18n>completeRespComm} : ${i18n>complete} }"/>
+			<Button
+				visible="{= ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ( ${Status} === ${Types>/participationStatus/C} || ${Status} === ${Types>/participationStatus/C1} ) &amp;&amp; ${DoneByFater} === false ) || ( ${user>/Username} === ${CommercManagerId} &amp;&amp;(${Status} === ${Types>/participationStatus/A1} || ${Status} === ${Types>/participationStatus/C2}) ) || ( ${user>/Username} === ${RegistryManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A2} || ${Status} === ${Types>/participationStatus/C3}) ) }"
+				press="onExplanationRequestButtonPress"
+				type="Emphasized"
+				text="{i18n>explanationRequest}"/>
+			<Button 
+				visible="{= ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ( ${Status} === ${Types>/participationStatus/C} || ${Status} === ${Types>/participationStatus/C1} ) &amp;&amp; ${DoneByFater} === false ) || ( ${user>/Username} === ${CommercManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A1} || ${Status} === ${Types>/participationStatus/C2}) ) || ( ${user>/Username} === ${RegistryManagerId} &amp;&amp; (${Status} === ${Types>/participationStatus/A2} || ${Status} === ${Types>/participationStatus/C3}) ) }"
+				press="onRejectButtonPress"
+				type="Reject"
+				text="{i18n>reject}"/>
+		</semantic:customFooterContent>
+	</semantic:DetailPage>
+</mvc:View>

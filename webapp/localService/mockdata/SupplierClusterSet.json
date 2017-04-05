@@ -1,0 +1,71 @@
+[{
+	"SupplierId": "SupplierId 1",
+	"ClusterId": "ClusterId 1",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 1',ClusterId='ClusterId 1')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 2",
+	"ClusterId": "ClusterId 2",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 2',ClusterId='ClusterId 2')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 3",
+	"ClusterId": "ClusterId 3",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 3',ClusterId='ClusterId 3')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 4",
+	"ClusterId": "ClusterId 4",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 4',ClusterId='ClusterId 4')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 5",
+	"ClusterId": "ClusterId 5",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 5',ClusterId='ClusterId 5')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 6",
+	"ClusterId": "ClusterId 6",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 6',ClusterId='ClusterId 6')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 7",
+	"ClusterId": "ClusterId 7",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 7',ClusterId='ClusterId 7')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 8",
+	"ClusterId": "ClusterId 8",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 8',ClusterId='ClusterId 8')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 9",
+	"ClusterId": "ClusterId 9",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 9',ClusterId='ClusterId 9')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}, {
+	"SupplierId": "SupplierId 10",
+	"ClusterId": "ClusterId 10",
+	"__metadata": {
+		"uri": "SupplierClusterSet(SupplierId='SupplierId 10',ClusterId='ClusterId 10')",
+		"type": "ZVIP_PROJECT_SRV.SupplierCluster"
+	}
+}]

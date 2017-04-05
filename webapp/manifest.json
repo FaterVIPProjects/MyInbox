@@ -1,0 +1,246 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "org.fater.app",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"types": {
+				"uri": "model/types.json",
+				"type": "JSON"
+			},
+			"control_tables_values": {
+				"uri": "model/control_tables_values.json",
+				"type": "JSON"
+			},
+			"temp": {
+				"uri": "model/temp.json",
+				"type": "JSON"
+			},
+			"ZVIP_PROJECT_SRV": {
+				"uri": "/sap/opu/odata/sap/ZVIP_PROJECT_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZVIP_PROJECT_SRV/metadata.xml"
+				}
+			},
+			"ZVIP_USERMGMT_SRV": {
+				"uri": "/sap/opu/odata/sap/ZVIP_USERMGMT_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZVIP_USERMGMT_SRV/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "org.fater.app.view.App",
+			"type": "XML",
+			"id": "App"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "org.fater.app.i18n.i18n"
+				}
+			},
+			"Types": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "types"
+			},
+			"ControlValues": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "control_tables_values"
+			},
+			"TempModel": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "temp"
+			},
+			"oDataModel": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "None",
+					"headers": {
+						"X-Requested-With": "X",
+						"Content-Type": "application/json",
+						"sap-client": "209"
+					},
+					"useBatch": false
+				},
+				"dataSource": "ZVIP_PROJECT_SRV",
+				"preload": true
+			},
+			"oUserModel": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "None",
+					"headers": {
+						"X-Requested-With": "X",
+						"Content-Type": "application/json",
+						"sap-client": "209"
+					},
+					"useBatch": false
+				},
+				"dataSource": "ZVIP_USERMGMT_SRV",
+				"preload": true
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"controlId": "app",
+				"viewPath": "org.fater.app.view",
+				"controlAggregation": "detailPages",
+				"clearTarget": false,
+				"bypassed": {
+					"target": [
+						"surveyList",
+						"notFound"
+					]
+				},
+				"viewLevel": 1
+			},
+			"routes": [
+				{
+					"pattern": ":?role:",
+					"name": "surveyList",
+					"target": [
+						"surveyList",
+						"empty"
+					]
+				},
+				{
+					"pattern": "Detail/{id}:?role:",
+					"name": "detail",
+					"target": [
+						"surveyList",
+						"detail"
+					]
+				},
+				{
+					"pattern": "DataCompletion/{id}:?role:",
+					"name": "dataCompletion",
+					"target": [
+						"surveyList",
+						"dataCompletion"
+					]
+				},
+				{
+					"pattern": "Detail/{participation_id}/ticket/{ticket_id}",
+					"name": "ticketDetail",
+					"target": [
+						"surveyList",
+						"ticketDetail"
+					]
+				},
+				{
+					"pattern": "DataCompletion/{participation_id}/ticket/{ticket_id}",
+					"name": "ticketDataCompletion",
+					"target": [
+						"surveyList",
+						"ticketDataCompletion"
+					]
+				}
+			],
+			"targets": {
+				"surveyList": {
+					"viewName": "SurveyList",
+					"viewId": "surveyList",
+					"controlAggregation": "masterPages"
+				},
+				"detail": {
+					"viewName": "Detail",
+					"viewId": "detail"
+				},
+				"dataCompletion": {
+					"viewName": "DataCompletion",
+					"viewId": "dataCompletion"
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"viewId": "detailNotFound"
+				},
+				"ticketDetail": {
+					"viewName": "Ticket",
+					"viewId": "ticket"
+				},
+				"ticketDataCompletion": {
+					"viewName": "Ticket",
+					"viewId": "ticket"
+				},
+				"empty": {
+					"viewName": "Empty",
+					"viewId": "empty"
+				}
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zmyinbox/webapp",
+		"_version": "1.1.0"
+	}
+}

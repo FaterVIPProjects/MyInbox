@@ -1,0 +1,171 @@
+[{
+	"ClusterId": "ParticipationId 1",
+	"Name": "Name 1",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 1')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 1')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 1')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 2",
+	"Name": "Name 2",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 2')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 2')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 2')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 3",
+	"Name": "Name 3",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 3')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 3')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 3')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 4",
+	"Name": "Name 4",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 4')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 4')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 4')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 5",
+	"Name": "Name 5",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 5')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 5')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 5')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 6",
+	"Name": "Name 6",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 6')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 6')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 6')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 7",
+	"Name": "Name 7",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 7')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 7')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 7')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 8",
+	"Name": "Name 8",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 8')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 8')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 8')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 9",
+	"Name": "Name 9",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 9')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 9')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 9')/ClusterCom"
+		}
+	}
+}, {
+	"ClusterId": "ParticipationId 10",
+	"Name": "Name 10",
+	"__metadata": {
+		"uri": "ClusterSet('ClusterId 10')",
+		"type": "ZVIP_PROJECT_SRV.Cluster"
+	},
+	"SurveyS": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 10')/SurveyS"
+		}
+	},
+	"ClusterCom": {
+		"__deferred": {
+			"uri": "ClusterSet('ClusterId 10')/ClusterCom"
+		}
+	}
+}]
