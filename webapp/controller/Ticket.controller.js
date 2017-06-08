@@ -1,6 +1,6 @@
 sap.ui.define([
-	"org/fater/app/framework/BaseController",
-	"org/fater/app/util/formatter",
+	"org/fater/myinbox/framework/BaseController",
+	"org/fater/myinbox/util/formatter",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/Dialog",
 	"sap/m/TextArea",
@@ -10,7 +10,7 @@ sap.ui.define([
 ], function(Controller, formatter, JSONModel, Dialog, TextArea, Button, ButtonType, Text) {
 	"use strict";
 
-	return Controller.extend("org.fater.app.controller.Ticket", {
+	return Controller.extend("org.fater.myinbox.controller.Ticket", {
 		
 		formatter: formatter, 	
 		

@@ -1,5 +1,5 @@
 <mvc:View 
-	controllerName="org.fater.app.controller.App" 
+	controllerName="org.fater.myinbox.controller.App" 
 	xmlns:html="http://www.w3.org/1999/xhtml"
 	xmlns:u="sap.ui.unified"
 	xmlns:mvc="sap.ui.core.mvc" 

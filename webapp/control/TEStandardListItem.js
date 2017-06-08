@@ -1,4 +1,3 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 /*!
  * UI development toolkit for HTML5 (OpenUI5)
  * (c) Copyright 2009-2016 SAP SE or an SAP affiliate company.
@@ -29,7 +28,7 @@ sap.ui.define([
 	 * @alias sap.m.TEStandardListItem
 	 * @ui5-metamodel This control/element also will be described in the UI5 (legacy) designtime metamodel
 	 */
-	var TEStandardListItem = StandardListItem.extend("org.fater.app.control.TEStandardListItem", { 
+	var TEStandardListItem = StandardListItem.extend("org.fater.myinbox.control.TEStandardListItem", { 
 	
 		metadata : {
 			properties : {

@@ -1,10 +1,9 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TEInput.
 sap.ui.define(['sap/m/Button'],
 	function(Button) {
 	"use strict";
 
-	var TEButton = Button.extend("org.fater.app.control.TEButton", { 
+	var TEButton = Button.extend("org.fater.myinbox.control.TEButton", { 
 	
 		metadata : {
 			//library : "sap.m",

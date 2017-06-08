@@ -1,4 +1,3 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TEInput.
 sap.ui.define([
 		'sap/m/Input',
@@ -7,7 +6,7 @@ sap.ui.define([
 	function(Input, RichTooltip) {
 	"use strict";
 
-	var TEInput = Input.extend("org.fater.app.control.TEInput", { 
+	var TEInput = Input.extend("org.fater.myinbox.control.TEInput", { 
 		
 		object : undefined,
 	

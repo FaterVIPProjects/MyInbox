@@ -1,7 +1,6 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
-	"org/fater/app/framework/BaseController",
-	"org/fater/app/util/formatter",
+	"org/fater/myinbox/framework/BaseController",
+	"org/fater/myinbox/util/formatter",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/MessageBox",
 	"sap/m/Dialog",
@@ -11,24 +10,24 @@ sap.ui.define([
 	"sap/m/ButtonType",
 	"sap/m/Text",
 	"sap/ui/commons/RichTooltip",
-	"org/fater/app/control/TETextQuestion",
-	"org/fater/app/control/TETextAreaQuestion",
-	"org/fater/app/control/TEChoiceQuestion",
-	"org/fater/app/control/TERadioQuestion",
-	"org/fater/app/control/TEFileQuestion",
-	"org/fater/app/control/TERevenueYear3Question",
-	"org/fater/app/control/TERevenueYearQuestion",
-	"org/fater/app/control/TEDateQuestion",
-	"org/fater/app/control/TEMoneyQuestion",
-	"org/fater/app/control/TEFileComplexQuestion",
-	"org/fater/app/control/TENumberType",
-	"org/fater/app/control/TENumberTypeString"
+	"org/fater/myinbox/control/TETextQuestion",
+	"org/fater/myinbox/control/TETextAreaQuestion",
+	"org/fater/myinbox/control/TEChoiceQuestion",
+	"org/fater/myinbox/control/TERadioQuestion",
+	"org/fater/myinbox/control/TEFileQuestion",
+	"org/fater/myinbox/control/TERevenueYear3Question",
+	"org/fater/myinbox/control/TERevenueYearQuestion",
+	"org/fater/myinbox/control/TEDateQuestion",
+	"org/fater/myinbox/control/TEMoneyQuestion",
+	"org/fater/myinbox/control/TEFileComplexQuestion",
+	"org/fater/myinbox/control/TENumberType",
+	"org/fater/myinbox/control/TENumberTypeString"
 ], function(Controller, formatter, JSONModel, MessageBox, Dialog, Input, TextArea, Button, ButtonType, Text, RichTooltip, TETextQuestion, TETextAreaQuestion,
 	TEChoiceQuestion, TERadioQuestion, TEFileQuestion, TERevenueYear3Question, TERevenueYearQuestion, TEDateQuestion, TEMoneyQuestion, 
 	TEFileComplexQuestion, TENumberType, TENumberTypeString) {
 	"use strict";
 
-	return Controller.extend("org.fater.app.controller.DataCompletion", {
+	return Controller.extend("org.fater.myinbox.controller.DataCompletion", {
 		
 		__targetName: "dataCompletion",
 		formatter: formatter, 
@@ -808,7 +807,16 @@ sap.ui.define([
 				var isEmpty = false;
 				
 				if( field.required ) {
-					if( element.getSelectedItem ) {
+					
+					// DB - FIX 12/05/2017: Aggiunta validazione per campi tipo Input
+					if (sap.m.Input.getMetadata()._sClassName === element.getMetadata()._sClassName) {
+						var value = element.getValue();
+						isEmpty = value === "" || value.length === 0;
+					}	
+					else if( element.getSelectedItem ) {
+					//if( element.getSelectedItem ) {
+					
+					
 						isEmpty = !element.getSelectedItem() || element.getSelectedItem().getKey() === null || element.getSelectedItem().getKey().length === 0;
 					} else if ( element.getSelected ) {
 						isEmpty = false;
@@ -1305,7 +1313,7 @@ sap.ui.define([
 		
 		handleParticipationEdit: function(dialog, decision, successMessage, errorMessage, successCallback) {
 			// instantiate dialog
-			var busyDialog = sap.ui.xmlfragment("org.fater.app.view.fragment.dialogs.BusyDialog", this);
+			var busyDialog = sap.ui.xmlfragment("org.fater.myinbox.view.fragment.dialogs.BusyDialog", this);
 			this.getView().addDependent(busyDialog);
  
 			// open busyDialog
@@ -1363,7 +1371,7 @@ sap.ui.define([
 
 		updateParticipation: function(dialog, newStatus, successMessage, errorMessage, successCallback, saveInRegistry) {
 			// instantiate dialog
-			var busyDialog = sap.ui.xmlfragment("org.fater.app.view.fragment.dialogs.BusyDialog", this);
+			var busyDialog = sap.ui.xmlfragment("org.fater.myinbox.view.fragment.dialogs.BusyDialog", this);
 			this.getView().addDependent(busyDialog);
  
 			// open busyDialog
@@ -1601,7 +1609,7 @@ sap.ui.define([
 		
 		handleTableSelectDialogPress: function(oEvent) {
 			if (! this._oSupplierDialog) {
-				this._oSupplierDialog = sap.ui.xmlfragment("org.fater.app.view.fragment.dialogs.SupplierSearchDialog", this);
+				this._oSupplierDialog = sap.ui.xmlfragment("org.fater.myinbox.view.fragment.dialogs.SupplierSearchDialog", this);
 			}
  
 			this.getView().addDependent(this._oSupplierDialog);
@@ -1662,7 +1670,7 @@ sap.ui.define([
 		
 		onNavBack: function(oEvent) {
 			// instantiate dialog
-			var dialog = sap.ui.xmlfragment("org.fater.app.view.fragment.dialogs.BusyDialog", this);
+			var dialog = sap.ui.xmlfragment("org.fater.myinbox.view.fragment.dialogs.BusyDialog", this);
 			this.getView().addDependent(dialog);
  
 			// open dialog

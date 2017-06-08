@@ -1,4 +1,3 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TETextArea.
 sap.ui.define([
 		'sap/m/TextArea',
@@ -7,7 +6,7 @@ sap.ui.define([
 	function(TextArea, RichTooltip) {
 	"use strict";
 
-	var TETextArea = TextArea.extend("org.fater.app.control.TETextArea", { 
+	var TETextArea = TextArea.extend("org.fater.myinbox.control.TETextArea", { 
 		
 		object : undefined,
 	

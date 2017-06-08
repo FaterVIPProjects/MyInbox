@@ -27,7 +27,6 @@ function __flowHandleVisibility(cc) {
 	if( cc.getBindingContext() === null ) {
 		return;
 	}
-	
 	cc.processedVisibility = true;
 	var constraints = cc.getBindingContext().getObject().Constraints;
 	if( constraints.length === 0 ) {

@@ -1,9 +1,8 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 jQuery.sap.require("sap.m.routing.RouteMatchedHandler");
 jQuery.sap.require("sap.ui.core.routing.Router");
-jQuery.sap.declare("org.fater.app.framework.MyRouter");
+jQuery.sap.declare("org.fater.myinbox.framework.MyRouter");
 
-sap.ui.core.routing.Router.extend("org.fater.app.framework.Router", {
+sap.ui.core.routing.Router.extend("org.fater.myinbox.framework.Router", {
 
 	constructor : function() {
 		sap.ui.core.routing.Router.apply(this, arguments);

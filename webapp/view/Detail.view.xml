@@ -2,7 +2,7 @@
 	xmlns:mvc="sap.ui.core.mvc" 
 	xmlns="sap.m"
 	xmlns:semantic="sap.m.semantic"
-	controllerName="org.fater.app.controller.Detail"
+	controllerName="org.fater.myinbox.controller.Detail"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<semantic:DetailPage id="detailPage"
 		showFooter="false"
@@ -31,8 +31,11 @@
 						formatter: '.formatter.supplierCode'
 				}"
 				icon="">
+				<!-- DB - FIX BUG #134 : Valorizzare Titolo pdf con numero Questionario -->
+				<!--					 ( aggiunto id="ParticipationId" )              -->
 				<attributes>
 					<ObjectAttribute
+						id="ParticipationId"
 						title="{i18n>participationId}"
 						text="{ParticipationId}"/>
 					<ObjectAttribute
@@ -96,15 +99,18 @@
 				selectedKey="0"
 				select="iconTabBarItemSelected">
 				<items>
+					
+					<!-- Benvenuto -->
 					<IconTabFilter 
 						id="filter_tab_welcome"
 						key="0"
 						visible="false"
 						text="{i18n>welcome}"
 						icon="sap-icon://hint">
-						<core:Fragment fragmentName="org.fater.app.view.fragment.survey.WelcomeTab" type="XML" />
-						
+						<core:Fragment fragmentName="org.fater.myinbox.view.fragment.survey.WelcomeTab" type="XML" />
 					</IconTabFilter>
+					
+					<!-- Punteggio -->
 					<IconTabFilter 
 						id="filter_tab_0"
 						key="1"
@@ -124,17 +130,18 @@
 							formatter: '.formatter.averagePoints'
 						}"
 						icon="sap-icon://approvals">
-						<core:Fragment fragmentName="org.fater.app.view.fragment.survey.Score" type="XML" />
+						<core:Fragment fragmentName="org.fater.myinbox.view.fragment.survey.Score" type="XML" />
 					</IconTabFilter>
 					
+					<!-- Informazioni su azienda -->
 					<IconTabFilter 
 						key="2"
 						id="survey_group_0"
 						text="{Survey/GroupS/0/Type}"
 						icon="sap-icon://manager">
-						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.IdentityRecord" type="XML" />
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.myinbox.view.fragment.survey.IdentityRecord" type="XML" />
 						<Toolbar
-							visible="{= ${Survey/GroupS/0/QuestionS/}.length > 0 }">   
+							visible="true">   
 							<Title text="{i18n>titleCompanyInformation}" titleStyle="H4" />
 							<ToolbarSpacer/>
 							<Text visible="{= ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === false }" text="{i18n>targetScore}: {Survey/GroupS/0/TargetPoint}" class="sapUiSmallMarginEnd"/>
@@ -154,15 +161,16 @@
 									}"/>
 							</HBox>
 						</Toolbar>		
-						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformation" type="XML" />
 					</IconTabFilter>
 					
+					<!-- Dati finanziari -->
 					<IconTabFilter
 						key="3"
 						id="survey_group_1"
 						text="{Survey/GroupS/1/Type}"
 						icon="sap-icon://money-bills">
-						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.app.view.fragment.survey.FinancialData" type="XML" />
+						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.myinbox.view.fragment.survey.FinancialData" type="XML" />
 						<Toolbar
 							visible="{= ${Survey/GroupS/1/QuestionS/}.length > 0 }">   
 							<Title text="{i18n>financialData}" titleStyle="H4" textAlign="Initial"/>
@@ -184,15 +192,16 @@
 									}"/>
 							</HBox>
 						</Toolbar>						
-						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformation" type="XML" />
 					</IconTabFilter>
 					
+					<!-- Organizzazione -->
 					<IconTabFilter
 						key="4"
 						id="survey_group_2"
 						text="{Survey/GroupS/2/Type}"
 						icon="sap-icon://tree">
-						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.OrganizationContact" type="XML" />
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.myinbox.view.fragment.survey.OrganizationContact" type="XML" />
 						<Toolbar
 							visible="{= ${Survey/GroupS/2/QuestionS/}.length > 0 }">   
 							<Title text="{i18n>plan}" titleStyle="H4" textAlign="Initial"/>
@@ -214,9 +223,10 @@
 									}"/>
 							</HBox>
 						</Toolbar>	
-						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformation" type="XML" />
 					</IconTabFilter>	
 					
+					<!-- Qualità e sicurezza -->
 					<IconTabFilter
 						visible="{= ${Survey/GroupS/3/QuestionS/}.length > 0 }"
 						key="5"
@@ -243,43 +253,45 @@
 									}"/>
 							</HBox>
 						</Toolbar>
-						<core:Fragment binding="{Survey/GroupS/3/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformation" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/3/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformation" type="XML" />
 					</IconTabFilter>
 					
+					<!-- Riepilogo -->
 					<IconTabFilter
 						visible="{= ${user>/Username} === ${SupplierRefId} || ( ${user>/Username} === ${CommercialRefId} &amp;&amp; ${DoneByFater} === true ) }"
 						key="6"
 						id="survey_group_all"
 						text="{i18n>allQuestionTitle}"
 						icon="sap-icon://document-text">
-						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.IdentityRecordReadOnly" type="XML" />
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.myinbox.view.fragment.survey.IdentityRecordReadOnly" type="XML" />
 						<Toolbar>   
 							<Title text="{i18n>titleCompanyInformation}" titleStyle="H4" textAlign="Initial"/>
 						</Toolbar>	
-						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
-						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.app.view.fragment.survey.FinancialDataReadOnly" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/0/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<core:Fragment binding="{Supplier/Company/0}" fragmentName="org.fater.myinbox.view.fragment.survey.FinancialDataReadOnly" type="XML" />
 						<Toolbar>   
 							<Title text="{i18n>financialData}" titleStyle="H4" textAlign="Initial"/>
 						</Toolbar>
-						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
-						<core:Fragment binding="{Supplier}" fragmentName="org.fater.app.view.fragment.survey.OrganizationContactReadOnly" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/1/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<core:Fragment binding="{Supplier}" fragmentName="org.fater.myinbox.view.fragment.survey.OrganizationContactReadOnly" type="XML" />
 						<Toolbar>   
 							<Title text="{i18n>plan}" titleStyle="H4" textAlign="Initial"/>
 						</Toolbar>	
-						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+						<core:Fragment binding="{Survey/GroupS/2/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
 						<Toolbar visible="{= ${Survey/GroupS/3/QuestionS/}.length > 0 }">   
 							<Title text="{i18n>qualitySecurity}" titleStyle="H4" textAlign="Initial"/>
 						</Toolbar>
 						<core:Fragment 
-							binding="{Survey/GroupS/3/}" fragmentName="org.fater.app.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
+							binding="{Survey/GroupS/3/}" fragmentName="org.fater.myinbox.view.fragment.survey.CompanyInformationReadOnly" type="XML" />
 					</IconTabFilter>
-					
+				
+					<!-- Comunicazione -->
 					<IconTabFilter id="communicationTabFilter"
 						visible="false"
 						key="communicationTabFilter"
 						text="{i18n>communication}"
 						icon="sap-icon://feed">
-						<core:Fragment fragmentName="org.fater.app.view.fragment.Communication" type="XML" />
+						<core:Fragment fragmentName="org.fater.myinbox.view.fragment.Communication" type="XML" />
 					</IconTabFilter>					
 				</items>
 			</IconTabBar>
@@ -329,6 +341,6 @@
 				press="onRejectButtonPress"
 				type="Reject"
 				text="{i18n>reject}"/>
-		</semantic:customFooterContent>
+			</semantic:customFooterContent>
 	</semantic:DetailPage>
 </mvc:View>

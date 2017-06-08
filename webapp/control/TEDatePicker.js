@@ -1,11 +1,10 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"sap/m/DatePicker",
 	'sap/ui/commons/RichTooltip'
 ], function (DatePicker, RichTooltip) {
 	"use strict";
 
-	var TEDatePicker = DatePicker.extend("org.fater.app.control.TEDatePicker", { 
+	var TEDatePicker = DatePicker.extend("org.fater.myinbox.control.TEDatePicker", { 
 	
 		metadata : {
 			properties : {

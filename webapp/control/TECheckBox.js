@@ -1,11 +1,10 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TEInput.
 sap.ui.define([
 		'sap/m/CheckBox'
 	], function(CheckBox, RichTooltip, ValueState, ValueStateSupport) {
 	"use strict";
 
-	var TECheckBox = CheckBox.extend("org.fater.app.control.TECheckBox", { 
+	var TECheckBox = CheckBox.extend("org.fater.myinbox.control.TECheckBox", { 
 	
 		object : undefined,
 	

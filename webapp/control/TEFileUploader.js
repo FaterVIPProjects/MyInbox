@@ -1,15 +1,14 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TEInput.
 sap.ui.define(['sap/ui/unified/FileUploader'],
 	function(FileUploader) {
 	"use strict";
 
-	var TEFileUploader = FileUploader.extend("org.fater.app.control.TEFileUploader", { 
+	var TEFileUploader = FileUploader.extend("org.fater.myinbox.control.TEFileUploader", { 
 	
 		metadata : {
 			//library : "sap.m",
 			properties : {
-				mandatory		: { type : "bool", defaultValue : false },
+				mandatory		: { type : "boolean", defaultValue : false },
 				customId		: {type : "string", group : "Misc", defaultValue : null, deprecated: false}
 			}
 		}, 

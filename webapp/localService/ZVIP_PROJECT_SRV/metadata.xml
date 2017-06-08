@@ -505,7 +505,7 @@
             </EntityType>
             <EntityType Name="TicketH" sap:content-version="1">
                 <Key>
-                    <PropertyRef Name="TicketId"/>
+                    s<PropertyRef Name="TicketId"/>
                     <PropertyRef Name="ParticipationId"/>
                 </Key>
                 <Property Name="Internal" Type="Edm.Boolean" sap:label="Variabile booleana (X=true, -=false, space=unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>

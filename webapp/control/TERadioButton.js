@@ -1,11 +1,10 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 // Provides control .TEInput.
 sap.ui.define([
 		'sap/m/RadioButton'
 	], function(RadioButton) {
 	"use strict";
 
-	var TERadioButton = RadioButton.extend("org.fater.app.control.TERadioButton", { 
+	var TERadioButton = RadioButton.extend("org.fater.myinbox.control.TERadioButton", { 
 	
 		metadata : {
 			properties : {

@@ -1,9 +1,9 @@
 sap.ui.define([
-	"org/fater/app/framework/BaseController"
+	"org/fater/myinbox/framework/BaseController"
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("org.fater.app.controller.App", {
+	return Controller.extend("org.fater.myinbox.controller.App", {
 		
 /*		onRouteMatched: function(){
 			this._isMasterOpening = false;	

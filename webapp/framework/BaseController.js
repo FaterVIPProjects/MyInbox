@@ -1,4 +1,3 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"jquery.sap.global",
     "sap/ui/core/mvc/Controller",
@@ -6,7 +5,7 @@ sap.ui.define([
 ], function (jQuery, Controller, History) {
 	"use strict";
 	
-	return Controller.extend("org.fater.app.framework.BaseController", {
+	return Controller.extend("org.fater.myinbox.framework.BaseController", {
 		
 		__targetName: null,
 		__isMainAppController: false,

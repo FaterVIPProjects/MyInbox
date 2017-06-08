@@ -1,11 +1,10 @@
-/* eslint no-empty: ["error", { "allowEmptyCatch": true }] */
 sap.ui.define([
 	"sap/ui/model/SimpleType",
 	"sap/ui/model/ValidateException"
 ], function(SimpleType, ValidateException) {
 	"use strict";
 
-	return SimpleType.extend("org.fater.app.control.TENumberType", {
+	return SimpleType.extend("org.fater.myinbox.control.TENumberType", {
 
 		formatValue: function(oValue) {
 			if( oValue !== null && oValue !== undefined && oValue !== "" ) {
