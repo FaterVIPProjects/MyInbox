@@ -6,7 +6,7 @@
         "type": "SAP_UI5_Component",
         "componentUrl": "/",
         "appUrl": "#Fater-Display",
-        "navigationComponentName": "org.fater.app",
+        "navigationComponentName": "org.fater.myinbox",
         "intentSemanticObject": "Fater",
         "intentAction": "Display",
         "html5ApplicationName": "fatermyinbox",
