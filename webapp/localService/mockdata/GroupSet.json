@@ -1,0 +1,101 @@
+[{
+	"IsHsne": false,
+	"HsneThreshold": 338,
+	"HsnePoints": 9287,
+	"Points": 5431,
+	"Type": "GENERAL",
+	"ThresholdPoint": 3028,
+	"TargetPoint": 2093,
+	"Constraints": "Constraints 1",
+	"SurveyId": "SurveyId 1",
+	"Zorder": "Zorder 1",
+	"Weight": 9531,
+	"QuestCount": 9589,
+	"Title": "Company Data",
+	"Description": "Description 1",
+	"GroupId": "GroupId 1",
+	"__metadata": {
+		"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Group"
+	},
+	"QuestionS": {
+		"__deferred": {
+			"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 1')/QuestionS"
+		}
+	}
+}, {
+	"IsHsne": true,
+	"HsneThreshold": 7960,
+	"HsnePoints": 3020,
+	"Points": 1193,
+	"Type": "FINANCIAL",
+	"ThresholdPoint": 3522,
+	"TargetPoint": 6457,
+	"Constraints": "Constraints 2",
+	"SurveyId": "SurveyId 1",
+	"Zorder": "Zorder 2",
+	"Weight": 1976,
+	"QuestCount": 9161,
+	"Title": "Dati finanziari",
+	"Description": "Description 2",
+	"GroupId": "GroupId 2",
+	"__metadata": {
+		"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Group"
+	},
+	"QuestionS": {
+		"__deferred": {
+			"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 2')/QuestionS"
+		}
+	}
+}, {
+	"IsHsne": true,
+	"HsneThreshold": 7088,
+	"HsnePoints": 595,
+	"Points": 2990,
+	"Type": "ORGANIZATION",
+	"ThresholdPoint": 4378,
+	"TargetPoint": 1730,
+	"Constraints": "Constraints 3",
+	"SurveyId": "SurveyId 1",
+	"Zorder": "Zorder 3",
+	"Weight": 4144,
+	"QuestCount": 7394,
+	"Title": "Organizzazione",
+	"Description": "Description 3",
+	"GroupId": "GroupId 3",
+	"__metadata": {
+		"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 3')",
+		"type": "ZVIP_PROJECT_SRV.Group"
+	},
+	"QuestionS": {
+		"__deferred": {
+			"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 3')/QuestionS"
+		}
+	}
+}, {
+	"IsHsne": false,
+	"HsneThreshold": 2213,
+	"HsnePoints": 9271,
+	"Points": 4343,
+	"Type": "QUALITY",
+	"ThresholdPoint": 3489,
+	"TargetPoint": 487,
+	"Constraints": "Constraints 4",
+	"SurveyId": "SurveyId 1",
+	"Zorder": "Zorder 4",
+	"Weight": 8014,
+	"QuestCount": 5832,
+	"Title": "Qualita , Sicurezza e Sostenibilita",
+	"Description": "Description 4",
+	"GroupId": "GroupId 4",
+	"__metadata": {
+		"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 4')",
+		"type": "ZVIP_PROJECT_SRV.Group"
+	},
+	"QuestionS": {
+		"__deferred": {
+			"uri": "GroupSet(SurveyId='SurveyId 1',GroupId='GroupId 4')/QuestionS"
+		}
+	}
+}]

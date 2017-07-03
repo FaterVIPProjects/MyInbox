@@ -1,0 +1,271 @@
+[{
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 1",
+	"UserId": "UserId 1",
+	"ParticipationId": "ParticipationId 1",
+	"ClusterId": "ClusterId 1",
+	"Updated": "/Date(1340091237000)/",
+	"Created": "/Date(1110875637000)/",
+	"CanRecompile": "CanRecompile 1",
+	"Status": "Status 1",
+	"ParticipCount": 1407,
+	"GroupCount": 3819,
+	"SurveyId": "SurveyId 1",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 1')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 1')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 2",
+	"UserId": "UserId 2",
+	"ParticipationId": "ParticipationId 2",
+	"ClusterId": "ClusterId 2",
+	"Updated": "/Date(1179473637000)/",
+	"Created": "/Date(1071909237000)/",
+	"CanRecompile": "CanRecompile 2",
+	"Status": "Status 2",
+	"ParticipCount": 1691,
+	"GroupCount": 9712,
+	"SurveyId": "SurveyId 2",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 2')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 2')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 2')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": true,
+	"Type": "Type 3",
+	"UserId": "UserId 3",
+	"ParticipationId": "ParticipationId 3",
+	"ClusterId": "ClusterId 3",
+	"Updated": "/Date(1194424437000)/",
+	"Created": "/Date(1302075237000)/",
+	"CanRecompile": "CanRecompile 3",
+	"Status": "Status 3",
+	"ParticipCount": 7090,
+	"GroupCount": 6275,
+	"SurveyId": "SurveyId 3",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 3')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 3')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 3')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": true,
+	"Type": "Type 4",
+	"UserId": "UserId 4",
+	"ParticipationId": "ParticipationId 4",
+	"ClusterId": "ClusterId 4",
+	"Updated": "/Date(948270837000)/",
+	"Created": "/Date(1481445237000)/",
+	"CanRecompile": "CanRecompile 4",
+	"Status": "Status 4",
+	"ParticipCount": 9109,
+	"GroupCount": 3722,
+	"SurveyId": "SurveyId 4",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 4')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 4')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 4')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 5",
+	"UserId": "UserId 5",
+	"ParticipationId": "ParticipationId 5",
+	"ClusterId": "ClusterId 5",
+	"Updated": "/Date(1016440437000)/",
+	"Created": "/Date(1505288037000)/",
+	"CanRecompile": "CanRecompile 5",
+	"Status": "Status 5",
+	"ParticipCount": 5755,
+	"GroupCount": 2712,
+	"SurveyId": "SurveyId 5",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 5')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 5')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 5')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 6",
+	"UserId": "UserId 6",
+	"ParticipationId": "ParticipationId 6",
+	"ClusterId": "ClusterId 6",
+	"Updated": "/Date(1149579237000)/",
+	"Created": "/Date(1563003237000)/",
+	"CanRecompile": "CanRecompile 6",
+	"Status": "Status 6",
+	"ParticipCount": 634,
+	"GroupCount": 6579,
+	"SurveyId": "SurveyId 6",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 6')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 6')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 6')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 7",
+	"UserId": "UserId 7",
+	"ParticipationId": "ParticipationId 7",
+	"ClusterId": "ClusterId 7",
+	"Updated": "/Date(1539934437000)/",
+	"Created": "/Date(967966437000)/",
+	"CanRecompile": "CanRecompile 7",
+	"Status": "Status 7",
+	"ParticipCount": 2676,
+	"GroupCount": 5849,
+	"SurveyId": "SurveyId 7",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 7')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 7')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 7')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": true,
+	"Type": "Type 8",
+	"UserId": "UserId 8",
+	"ParticipationId": "ParticipationId 8",
+	"ClusterId": "ClusterId 8",
+	"Updated": "/Date(1099989237000)/",
+	"Created": "/Date(1370676837000)/",
+	"CanRecompile": "CanRecompile 8",
+	"Status": "Status 8",
+	"ParticipCount": 2575,
+	"GroupCount": 1118,
+	"SurveyId": "SurveyId 8",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 8')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 8')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 8')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 9",
+	"UserId": "UserId 9",
+	"ParticipationId": "ParticipationId 9",
+	"ClusterId": "ClusterId 9",
+	"Updated": "/Date(1096702437000)/",
+	"Created": "/Date(1273736037000)/",
+	"CanRecompile": "CanRecompile 9",
+	"Status": "Status 9",
+	"ParticipCount": 5225,
+	"GroupCount": 3307,
+	"SurveyId": "SurveyId 9",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 9')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 9')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 9')/GroupS"
+		}
+	}
+}, {
+	"Showacceptpaymentcondition": false,
+	"Type": "Type 10",
+	"UserId": "UserId 10",
+	"ParticipationId": "ParticipationId 10",
+	"ClusterId": "ClusterId 10",
+	"Updated": "/Date(1320050037000)/",
+	"Created": "/Date(1288251237000)/",
+	"CanRecompile": "CanRecompile 10",
+	"Status": "Status 10",
+	"ParticipCount": 9278,
+	"GroupCount": 9006,
+	"SurveyId": "SurveyId 10",
+	"__metadata": {
+		"uri": "SurveySet('SurveyId 10')",
+		"type": "ZVIP_PROJECT_SRV.Survey"
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 10')/Cluster"
+		}
+	},
+	"GroupS": {
+		"__deferred": {
+			"uri": "SurveySet('SurveyId 10')/GroupS"
+		}
+	}
+}]

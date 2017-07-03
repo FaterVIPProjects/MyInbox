@@ -1,0 +1,46 @@
+<mvc:View	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m"
+	xmlns:semantic="sap.m.semantic"
+	xmlns:commons="sap.suite.ui.commons"
+	controllerName="org.fater.myinbox.controller.Ticket"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<semantic:DetailPage id="detailPage"
+		title="{i18n>ticketPage}"
+		showNavButton="true"
+		navButtonPress="onNavBack">
+		<semantic:content>
+			<commons:Timeline
+			height="100%"
+			noDataText="{i18n>noReplyMessage}"
+			showHeaderBar="true"
+			showFilterBar="false"
+			id="idTimelineExternal"
+			enableSocial="false"
+			enableScroll="false"
+			content="{Item}"
+			sortOldestFirst="true">
+			<commons:content>
+				<commons:TimelineItem
+					userNameClickable="false"
+					userName="{Name}"
+					dateTime="{ 
+						parts: [
+							{path: 'Inserted'}
+						], 
+						formatter: '.formatter.formattedDateFull' 
+					}" 
+					title = "{Message}"
+					icon = "sap-icon://notes">
+				</commons:TimelineItem>
+			</commons:content>
+		</commons:Timeline>
+		</semantic:content>
+		<semantic:customFooterContent>  
+			<Button
+				press="onReply"
+				type="Emphasized"
+				text="{i18n>ticketDialogReplyButton}" />
+		</semantic:customFooterContent>
+	</semantic:DetailPage>
+</mvc:View>

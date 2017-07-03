@@ -1,0 +1,151 @@
+[{
+	"Created": "/Date(1031816093000)/",
+	"ParticipationId": "ParticipationId 1",
+	"TicketId": "TicketId 1",
+	"Title": "Title 1",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 1',TicketId='TicketId 1')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 1',TicketId='TicketId 1')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1385714093000)/",
+	"ParticipationId": "ParticipationId 2",
+	"TicketId": "TicketId 2",
+	"Title": "Title 2",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 2',TicketId='TicketId 2')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 2',TicketId='TicketId 2')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1493624093000)/",
+	"ParticipationId": "ParticipationId 3",
+	"TicketId": "TicketId 3",
+	"Title": "Title 3",
+	"Internal": false,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 3',TicketId='TicketId 3')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 3',TicketId='TicketId 3')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1036485293000)/",
+	"ParticipationId": "ParticipationId 4",
+	"TicketId": "TicketId 4",
+	"Title": "Title 4",
+	"Internal": false,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 4',TicketId='TicketId 4')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 4',TicketId='TicketId 4')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1267432493000)/",
+	"ParticipationId": "ParticipationId 5",
+	"TicketId": "TicketId 5",
+	"Title": "Title 5",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 5',TicketId='TicketId 5')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 5',TicketId='TicketId 5')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1185521693000)/",
+	"ParticipationId": "ParticipationId 6",
+	"TicketId": "TicketId 6",
+	"Title": "Title 6",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 6',TicketId='TicketId 6')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 6',TicketId='TicketId 6')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1540625693000)/",
+	"ParticipationId": "ParticipationId 7",
+	"TicketId": "TicketId 7",
+	"Title": "Title 7",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 7',TicketId='TicketId 7')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 7',TicketId='TicketId 7')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1554881693000)/",
+	"ParticipationId": "ParticipationId 8",
+	"TicketId": "TicketId 8",
+	"Title": "Title 8",
+	"Internal": true,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 8',TicketId='TicketId 8')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 8',TicketId='TicketId 8')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1468568093000)/",
+	"ParticipationId": "ParticipationId 9",
+	"TicketId": "TicketId 9",
+	"Title": "Title 9",
+	"Internal": false,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 9',TicketId='TicketId 9')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 9',TicketId='TicketId 9')/Item"
+		}
+	}
+}, {
+	"Created": "/Date(1478248493000)/",
+	"ParticipationId": "ParticipationId 10",
+	"TicketId": "TicketId 10",
+	"Title": "Title 10",
+	"Internal": false,
+	"__metadata": {
+		"uri": "TicketHSet(ParticipationId='ParticipationId 10',TicketId='TicketId 10')",
+		"type": "ZVIP_PROJECT_SRV.TicketH"
+	},
+	"Item": {
+		"__deferred": {
+			"uri": "TicketHSet(ParticipationId='ParticipationId 10',TicketId='TicketId 10')/Item"
+		}
+	}
+}]

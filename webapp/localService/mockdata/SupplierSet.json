@@ -1,0 +1,721 @@
+[{
+	"UserPortal": "UserPortal 1",
+	"SupplierId": "SupplierId 1",
+	"Language": "Language 1",
+	"Erdat": "/Date(1026718441000)/",
+	"Ernam": "Ernam 1",
+	"Note": "Note 1",
+	"Type": "NATIONAL",
+	"HeaderSap": "HeaderSap 1",
+	"IndustrialSector": "IndustrialSector 1",
+	"PreferredContact": "PreferredContact 1",
+	"SearchKeyword": "SearchKeyword 1",
+	"CommercialEmail": "CommercialEmail 1",
+	"AdministrationName": "AdministrationName 1",
+	"AdministrationEmail": "AdministrationEmail 1",
+	"OdaName": "OdaName 1",
+	"OdaEmail": "OdaEmail 1",
+	"ContactArea": "ContactArea 1",
+	"ContactCellNumber": "ContactCellNumber 1",
+	"ContactEmail": "ContactEmail 1",
+	"ContactName": "ContactName 1",
+	"ContactSurname": "ContactSurname 1",
+	"ContactTitle": "ContactTitle 1",
+	"ContactTelNumber": "ContactTelNumber 1",
+	"Address": "Address 1",
+	"PostCode": "PostCode 1",
+	"City": "City 1",
+	"Province": "Province 1",
+	"Country": "Country 1",
+	"TaxCode": "TaxCode 1",
+	"Fax": "Fax 1",
+	"Phone": "Phone 1",
+	"VatCee": "VatCee 1",
+	"VatIt": "VatIt 1",
+	"Lifnr": "Lifnr 1",
+	"Name1": "Name1 1",
+	"Addressnumber": "Addressnumber 1",
+	"UserHsne": "UserHsne 1",
+	"PaymentCondition": "PaymentCondition 1",
+	"CommercialName": "CommercialName 1",
+	"CommercialSurname": "CommercialSurname 1",
+	"AdministrationSurname": "AdministrationSurname 1",
+	"OdaSurname": "OdaSurname 1",
+	"Role": "Role 1",
+	"AdditionalEmail": "AdditionalEmail 1",
+	"AccountGroup": "AccountGroup 1",
+	"Status": "POTENTIAL_BIDDER",
+	"Naturalperson": true,
+	"Whsex": "Whsex 1",
+	"Whbirthdate": "/Date(1092987241000)/",
+	"Whbirthcity": "Whbirthcity 1",
+	"Whjob": "Whjob 1",
+	"Whcode": "Whcode 1",
+	"__metadata": {
+		"uri": "SupplierSet('SupplierId 1')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('SupplierId 1')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('SupplierId 1')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('SupplierId 1')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 2",
+	"SupplierId": "SupplierId 2",
+	"Language": "Language 2",
+	"Erdat": "/Date(1432539241000)/",
+	"Ernam": "Ernam 2",
+	"Note": "Note 2",
+	"Type": "Type 2",
+	"HeaderSap": "HeaderSap 2",
+	"IndustrialSector": "IndustrialSector 2",
+	"PreferredContact": "PreferredContact 2",
+	"SearchKeyword": "SearchKeyword 2",
+	"CommercialEmail": "CommercialEmail 2",
+	"AdministrationName": "AdministrationName 2",
+	"AdministrationEmail": "AdministrationEmail 2",
+	"OdaName": "OdaName 2",
+	"OdaEmail": "OdaEmail 2",
+	"ContactArea": "ContactArea 2",
+	"ContactCellNumber": "ContactCellNumber 2",
+	"ContactEmail": "ContactEmail 2",
+	"ContactName": "ContactName 2",
+	"ContactSurname": "ContactSurname 2",
+	"ContactTitle": "ContactTitle 2",
+	"ContactTelNumber": "ContactTelNumber 2",
+	"Address": "Address 2",
+	"PostCode": "PostCode 2",
+	"City": "City 2",
+	"Province": "Province 2",
+	"Country": "Country 2",
+	"TaxCode": "TaxCode 2",
+	"Fax": "Fax 2",
+	"Phone": "Phone 2",
+	"VatCee": "VatCee 2",
+	"VatIt": "VatIt 2",
+	"Lifnr": "Lifnr 2",
+	"Name1": "Name1 2",
+	"Addressnumber": "Addressnumber 2",
+	"UserHsne": "UserHsne 2",
+	"PaymentCondition": "PaymentCondition 2",
+	"CommercialName": "CommercialName 2",
+	"CommercialSurname": "CommercialSurname 2",
+	"AdministrationSurname": "AdministrationSurname 2",
+	"OdaSurname": "OdaSurname 2",
+	"Role": "Role 2",
+	"AdditionalEmail": "AdditionalEmail 2",
+	"AccountGroup": "AccountGroup 2",
+	"Status": "Status 2",
+	"Naturalperson": true,
+	"Whsex": "Whsex 2",
+	"Whbirthdate": "/Date(1183102441000)/",
+	"Whbirthcity": "Whbirthcity 2",
+	"Whjob": "Whjob 2",
+	"Whcode": "Whcode 2",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 2')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 2')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 2')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 2')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 3",
+	"SupplierId": "SupplierId 3",
+	"Language": "Language 3",
+	"Erdat": "/Date(1239780841000)/",
+	"Ernam": "Ernam 3",
+	"Note": "Note 3",
+	"Type": "Type 3",
+	"HeaderSap": "HeaderSap 3",
+	"IndustrialSector": "IndustrialSector 3",
+	"PreferredContact": "PreferredContact 3",
+	"SearchKeyword": "SearchKeyword 3",
+	"CommercialEmail": "CommercialEmail 3",
+	"AdministrationName": "AdministrationName 3",
+	"AdministrationEmail": "AdministrationEmail 3",
+	"OdaName": "OdaName 3",
+	"OdaEmail": "OdaEmail 3",
+	"ContactArea": "ContactArea 3",
+	"ContactCellNumber": "ContactCellNumber 3",
+	"ContactEmail": "ContactEmail 3",
+	"ContactName": "ContactName 3",
+	"ContactSurname": "ContactSurname 3",
+	"ContactTitle": "ContactTitle 3",
+	"ContactTelNumber": "ContactTelNumber 3",
+	"Address": "Address 3",
+	"PostCode": "PostCode 3",
+	"City": "City 3",
+	"Province": "Province 3",
+	"Country": "Country 3",
+	"TaxCode": "TaxCode 3",
+	"Fax": "Fax 3",
+	"Phone": "Phone 3",
+	"VatCee": "VatCee 3",
+	"VatIt": "VatIt 3",
+	"Lifnr": "Lifnr 3",
+	"Name1": "Name1 3",
+	"Addressnumber": "Addressnumber 3",
+	"UserHsne": "UserHsne 3",
+	"PaymentCondition": "PaymentCondition 3",
+	"CommercialName": "CommercialName 3",
+	"CommercialSurname": "CommercialSurname 3",
+	"AdministrationSurname": "AdministrationSurname 3",
+	"OdaSurname": "OdaSurname 3",
+	"Role": "Role 3",
+	"AdditionalEmail": "AdditionalEmail 3",
+	"AccountGroup": "AccountGroup 3",
+	"Status": "Status 3",
+	"Naturalperson": true,
+	"Whsex": "Whsex 3",
+	"Whbirthdate": "/Date(1295944441000)/",
+	"Whbirthcity": "Whbirthcity 3",
+	"Whjob": "Whjob 3",
+	"Whcode": "Whcode 3",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 3')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 3')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 3')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 3')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 4",
+	"SupplierId": "SupplierId 4",
+	"Language": "Language 4",
+	"Erdat": "/Date(1543480441000)/",
+	"Ernam": "Ernam 4",
+	"Note": "Note 4",
+	"Type": "Type 4",
+	"HeaderSap": "HeaderSap 4",
+	"IndustrialSector": "IndustrialSector 4",
+	"PreferredContact": "PreferredContact 4",
+	"SearchKeyword": "SearchKeyword 4",
+	"CommercialEmail": "CommercialEmail 4",
+	"AdministrationName": "AdministrationName 4",
+	"AdministrationEmail": "AdministrationEmail 4",
+	"OdaName": "OdaName 4",
+	"OdaEmail": "OdaEmail 4",
+	"ContactArea": "ContactArea 4",
+	"ContactCellNumber": "ContactCellNumber 4",
+	"ContactEmail": "ContactEmail 4",
+	"ContactName": "ContactName 4",
+	"ContactSurname": "ContactSurname 4",
+	"ContactTitle": "ContactTitle 4",
+	"ContactTelNumber": "ContactTelNumber 4",
+	"Address": "Address 4",
+	"PostCode": "PostCode 4",
+	"City": "City 4",
+	"Province": "Province 4",
+	"Country": "Country 4",
+	"TaxCode": "TaxCode 4",
+	"Fax": "Fax 4",
+	"Phone": "Phone 4",
+	"VatCee": "VatCee 4",
+	"VatIt": "VatIt 4",
+	"Lifnr": "Lifnr 4",
+	"Name1": "Name1 4",
+	"Addressnumber": "Addressnumber 4",
+	"UserHsne": "UserHsne 4",
+	"PaymentCondition": "PaymentCondition 4",
+	"CommercialName": "CommercialName 4",
+	"CommercialSurname": "CommercialSurname 4",
+	"AdministrationSurname": "AdministrationSurname 4",
+	"OdaSurname": "OdaSurname 4",
+	"Role": "Role 4",
+	"AdditionalEmail": "AdditionalEmail 4",
+	"AccountGroup": "AccountGroup 4",
+	"Status": "Status 4",
+	"Naturalperson": false,
+	"Whsex": "Whsex 4",
+	"Whbirthdate": "/Date(1455006841000)/",
+	"Whbirthcity": "Whbirthcity 4",
+	"Whjob": "Whjob 4",
+	"Whcode": "Whcode 4",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 4')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 4')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 4')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 4')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 5",
+	"SupplierId": "SupplierId 5",
+	"Language": "Language 5",
+	"Erdat": "/Date(1469604841000)/",
+	"Ernam": "Ernam 5",
+	"Note": "Note 5",
+	"Type": "Type 5",
+	"HeaderSap": "HeaderSap 5",
+	"IndustrialSector": "IndustrialSector 5",
+	"PreferredContact": "PreferredContact 5",
+	"SearchKeyword": "SearchKeyword 5",
+	"CommercialEmail": "CommercialEmail 5",
+	"AdministrationName": "AdministrationName 5",
+	"AdministrationEmail": "AdministrationEmail 5",
+	"OdaName": "OdaName 5",
+	"OdaEmail": "OdaEmail 5",
+	"ContactArea": "ContactArea 5",
+	"ContactCellNumber": "ContactCellNumber 5",
+	"ContactEmail": "ContactEmail 5",
+	"ContactName": "ContactName 5",
+	"ContactSurname": "ContactSurname 5",
+	"ContactTitle": "ContactTitle 5",
+	"ContactTelNumber": "ContactTelNumber 5",
+	"Address": "Address 5",
+	"PostCode": "PostCode 5",
+	"City": "City 5",
+	"Province": "Province 5",
+	"Country": "Country 5",
+	"TaxCode": "TaxCode 5",
+	"Fax": "Fax 5",
+	"Phone": "Phone 5",
+	"VatCee": "VatCee 5",
+	"VatIt": "VatIt 5",
+	"Lifnr": "Lifnr 5",
+	"Name1": "Name1 5",
+	"Addressnumber": "Addressnumber 5",
+	"UserHsne": "UserHsne 5",
+	"PaymentCondition": "PaymentCondition 5",
+	"CommercialName": "CommercialName 5",
+	"CommercialSurname": "CommercialSurname 5",
+	"AdministrationSurname": "AdministrationSurname 5",
+	"OdaSurname": "OdaSurname 5",
+	"Role": "Role 5",
+	"AdditionalEmail": "AdditionalEmail 5",
+	"AccountGroup": "AccountGroup 5",
+	"Status": "Status 5",
+	"Naturalperson": true,
+	"Whsex": "Whsex 5",
+	"Whbirthdate": "/Date(1301643241000)/",
+	"Whbirthcity": "Whbirthcity 5",
+	"Whjob": "Whjob 5",
+	"Whcode": "Whcode 5",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 5')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 5')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 5')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 5')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 6",
+	"SupplierId": "SupplierId 6",
+	"Language": "Language 6",
+	"Erdat": "/Date(1572942841000)/",
+	"Ernam": "Ernam 6",
+	"Note": "Note 6",
+	"Type": "Type 6",
+	"HeaderSap": "HeaderSap 6",
+	"IndustrialSector": "IndustrialSector 6",
+	"PreferredContact": "PreferredContact 6",
+	"SearchKeyword": "SearchKeyword 6",
+	"CommercialEmail": "CommercialEmail 6",
+	"AdministrationName": "AdministrationName 6",
+	"AdministrationEmail": "AdministrationEmail 6",
+	"OdaName": "OdaName 6",
+	"OdaEmail": "OdaEmail 6",
+	"ContactArea": "ContactArea 6",
+	"ContactCellNumber": "ContactCellNumber 6",
+	"ContactEmail": "ContactEmail 6",
+	"ContactName": "ContactName 6",
+	"ContactSurname": "ContactSurname 6",
+	"ContactTitle": "ContactTitle 6",
+	"ContactTelNumber": "ContactTelNumber 6",
+	"Address": "Address 6",
+	"PostCode": "PostCode 6",
+	"City": "City 6",
+	"Province": "Province 6",
+	"Country": "Country 6",
+	"TaxCode": "TaxCode 6",
+	"Fax": "Fax 6",
+	"Phone": "Phone 6",
+	"VatCee": "VatCee 6",
+	"VatIt": "VatIt 6",
+	"Lifnr": "Lifnr 6",
+	"Name1": "Name1 6",
+	"Addressnumber": "Addressnumber 6",
+	"UserHsne": "UserHsne 6",
+	"PaymentCondition": "PaymentCondition 6",
+	"CommercialName": "CommercialName 6",
+	"CommercialSurname": "CommercialSurname 6",
+	"AdministrationSurname": "AdministrationSurname 6",
+	"OdaSurname": "OdaSurname 6",
+	"Role": "Role 6",
+	"AdditionalEmail": "AdditionalEmail 6",
+	"AccountGroup": "AccountGroup 6",
+	"Status": "Status 6",
+	"Naturalperson": true,
+	"Whsex": "Whsex 6",
+	"Whbirthdate": "/Date(1564126441000)/",
+	"Whbirthcity": "Whbirthcity 6",
+	"Whjob": "Whjob 6",
+	"Whcode": "Whcode 6",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 6')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 6')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 6')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 6')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 7",
+	"SupplierId": "SupplierId 7",
+	"Language": "Language 7",
+	"Erdat": "/Date(1020238441000)/",
+	"Ernam": "Ernam 7",
+	"Note": "Note 7",
+	"Type": "Type 7",
+	"HeaderSap": "HeaderSap 7",
+	"IndustrialSector": "IndustrialSector 7",
+	"PreferredContact": "PreferredContact 7",
+	"SearchKeyword": "SearchKeyword 7",
+	"CommercialEmail": "CommercialEmail 7",
+	"AdministrationName": "AdministrationName 7",
+	"AdministrationEmail": "AdministrationEmail 7",
+	"OdaName": "OdaName 7",
+	"OdaEmail": "OdaEmail 7",
+	"ContactArea": "ContactArea 7",
+	"ContactCellNumber": "ContactCellNumber 7",
+	"ContactEmail": "ContactEmail 7",
+	"ContactName": "ContactName 7",
+	"ContactSurname": "ContactSurname 7",
+	"ContactTitle": "ContactTitle 7",
+	"ContactTelNumber": "ContactTelNumber 7",
+	"Address": "Address 7",
+	"PostCode": "PostCode 7",
+	"City": "City 7",
+	"Province": "Province 7",
+	"Country": "Country 7",
+	"TaxCode": "TaxCode 7",
+	"Fax": "Fax 7",
+	"Phone": "Phone 7",
+	"VatCee": "VatCee 7",
+	"VatIt": "VatIt 7",
+	"Lifnr": "Lifnr 7",
+	"Name1": "Name1 7",
+	"Addressnumber": "Addressnumber 7",
+	"UserHsne": "UserHsne 7",
+	"PaymentCondition": "PaymentCondition 7",
+	"CommercialName": "CommercialName 7",
+	"CommercialSurname": "CommercialSurname 7",
+	"AdministrationSurname": "AdministrationSurname 7",
+	"OdaSurname": "OdaSurname 7",
+	"Role": "Role 7",
+	"AdditionalEmail": "AdditionalEmail 7",
+	"AccountGroup": "AccountGroup 7",
+	"Status": "Status 7",
+	"Naturalperson": true,
+	"Whsex": "Whsex 7",
+	"Whbirthdate": "/Date(1124782441000)/",
+	"Whbirthcity": "Whbirthcity 7",
+	"Whjob": "Whjob 7",
+	"Whcode": "Whcode 7",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 7')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 7')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 7')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 7')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 8",
+	"SupplierId": "SupplierId 8",
+	"Language": "Language 8",
+	"Erdat": "/Date(1412753641000)/",
+	"Ernam": "Ernam 8",
+	"Note": "Note 8",
+	"Type": "Type 8",
+	"HeaderSap": "HeaderSap 8",
+	"IndustrialSector": "IndustrialSector 8",
+	"PreferredContact": "PreferredContact 8",
+	"SearchKeyword": "SearchKeyword 8",
+	"CommercialEmail": "CommercialEmail 8",
+	"AdministrationName": "AdministrationName 8",
+	"AdministrationEmail": "AdministrationEmail 8",
+	"OdaName": "OdaName 8",
+	"OdaEmail": "OdaEmail 8",
+	"ContactArea": "ContactArea 8",
+	"ContactCellNumber": "ContactCellNumber 8",
+	"ContactEmail": "ContactEmail 8",
+	"ContactName": "ContactName 8",
+	"ContactSurname": "ContactSurname 8",
+	"ContactTitle": "ContactTitle 8",
+	"ContactTelNumber": "ContactTelNumber 8",
+	"Address": "Address 8",
+	"PostCode": "PostCode 8",
+	"City": "City 8",
+	"Province": "Province 8",
+	"Country": "Country 8",
+	"TaxCode": "TaxCode 8",
+	"Fax": "Fax 8",
+	"Phone": "Phone 8",
+	"VatCee": "VatCee 8",
+	"VatIt": "VatIt 8",
+	"Lifnr": "Lifnr 8",
+	"Name1": "Name1 8",
+	"Addressnumber": "Addressnumber 8",
+	"UserHsne": "UserHsne 8",
+	"PaymentCondition": "PaymentCondition 8",
+	"CommercialName": "CommercialName 8",
+	"CommercialSurname": "CommercialSurname 8",
+	"AdministrationSurname": "AdministrationSurname 8",
+	"OdaSurname": "OdaSurname 8",
+	"Role": "Role 8",
+	"AdditionalEmail": "AdditionalEmail 8",
+	"AccountGroup": "AccountGroup 8",
+	"Status": "Status 8",
+	"Naturalperson": false,
+	"Whsex": "Whsex 8",
+	"Whbirthdate": "/Date(1176536041000)/",
+	"Whbirthcity": "Whbirthcity 8",
+	"Whjob": "Whjob 8",
+	"Whcode": "Whcode 8",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 8')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 8')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 8')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 8')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 9",
+	"SupplierId": "SupplierId 9",
+	"Language": "Language 9",
+	"Erdat": "/Date(1299573241000)/",
+	"Ernam": "Ernam 9",
+	"Note": "Note 9",
+	"Type": "Type 9",
+	"HeaderSap": "HeaderSap 9",
+	"IndustrialSector": "IndustrialSector 9",
+	"PreferredContact": "PreferredContact 9",
+	"SearchKeyword": "SearchKeyword 9",
+	"CommercialEmail": "CommercialEmail 9",
+	"AdministrationName": "AdministrationName 9",
+	"AdministrationEmail": "AdministrationEmail 9",
+	"OdaName": "OdaName 9",
+	"OdaEmail": "OdaEmail 9",
+	"ContactArea": "ContactArea 9",
+	"ContactCellNumber": "ContactCellNumber 9",
+	"ContactEmail": "ContactEmail 9",
+	"ContactName": "ContactName 9",
+	"ContactSurname": "ContactSurname 9",
+	"ContactTitle": "ContactTitle 9",
+	"ContactTelNumber": "ContactTelNumber 9",
+	"Address": "Address 9",
+	"PostCode": "PostCode 9",
+	"City": "City 9",
+	"Province": "Province 9",
+	"Country": "Country 9",
+	"TaxCode": "TaxCode 9",
+	"Fax": "Fax 9",
+	"Phone": "Phone 9",
+	"VatCee": "VatCee 9",
+	"VatIt": "VatIt 9",
+	"Lifnr": "Lifnr 9",
+	"Name1": "Name1 9",
+	"Addressnumber": "Addressnumber 9",
+	"UserHsne": "UserHsne 9",
+	"PaymentCondition": "PaymentCondition 9",
+	"CommercialName": "CommercialName 9",
+	"CommercialSurname": "CommercialSurname 9",
+	"AdministrationSurname": "AdministrationSurname 9",
+	"OdaSurname": "OdaSurname 9",
+	"Role": "Role 9",
+	"AdditionalEmail": "AdditionalEmail 9",
+	"AccountGroup": "AccountGroup 9",
+	"Status": "Status 9",
+	"Naturalperson": true,
+	"Whsex": "Whsex 9",
+	"Whbirthdate": "/Date(1034235241000)/",
+	"Whbirthcity": "Whbirthcity 9",
+	"Whjob": "Whjob 9",
+	"Whcode": "Whcode 9",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 9')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 9')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 9')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 9')/SupplierCluster"
+		}
+	}
+}, {
+	"UserPortal": "UserPortal 10",
+	"SupplierId": "SupplierId 10",
+	"Language": "Language 10",
+	"Erdat": "/Date(949653241000)/",
+	"Ernam": "Ernam 10",
+	"Note": "Note 10",
+	"Type": "Type 10",
+	"HeaderSap": "HeaderSap 10",
+	"IndustrialSector": "IndustrialSector 10",
+	"PreferredContact": "PreferredContact 10",
+	"SearchKeyword": "SearchKeyword 10",
+	"CommercialEmail": "CommercialEmail 10",
+	"AdministrationName": "AdministrationName 10",
+	"AdministrationEmail": "AdministrationEmail 10",
+	"OdaName": "OdaName 10",
+	"OdaEmail": "OdaEmail 10",
+	"ContactArea": "ContactArea 10",
+	"ContactCellNumber": "ContactCellNumber 10",
+	"ContactEmail": "ContactEmail 10",
+	"ContactName": "ContactName 10",
+	"ContactSurname": "ContactSurname 10",
+	"ContactTitle": "ContactTitle 10",
+	"ContactTelNumber": "ContactTelNumber 10",
+	"Address": "Address 10",
+	"PostCode": "PostCode 10",
+	"City": "City 10",
+	"Province": "Province 10",
+	"Country": "Country 10",
+	"TaxCode": "TaxCode 10",
+	"Fax": "Fax 10",
+	"Phone": "Phone 10",
+	"VatCee": "VatCee 10",
+	"VatIt": "VatIt 10",
+	"Lifnr": "Lifnr 10",
+	"Name1": "Name1 10",
+	"Addressnumber": "Addressnumber 10",
+	"UserHsne": "UserHsne 10",
+	"PaymentCondition": "PaymentCondition 10",
+	"CommercialName": "CommercialName 10",
+	"CommercialSurname": "CommercialSurname 10",
+	"AdministrationSurname": "AdministrationSurname 10",
+	"OdaSurname": "OdaSurname 10",
+	"Role": "Role 10",
+	"AdditionalEmail": "AdditionalEmail 10",
+	"AccountGroup": "AccountGroup 10",
+	"Status": "Status 10",
+	"Naturalperson": false,
+	"Whsex": "Whsex 10",
+	"Whbirthdate": "/Date(1385022841000)/",
+	"Whbirthcity": "Whbirthcity 10",
+	"Whjob": "Whjob 10",
+	"Whcode": "Whcode 10",
+	"__metadata": {
+		"uri": "SupplierSet('ParticipationId 10')",
+		"type": "ZVIP_PROJECT_SRV.Supplier"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 10')/PurchaseOrg"
+		}
+	},
+	"Company": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 10')/Company"
+		}
+	},
+	"SupplierCluster": {
+		"__deferred": {
+			"uri": "SupplierSet('ParticipationId 10')/SupplierCluster"
+		}
+	}
+}]

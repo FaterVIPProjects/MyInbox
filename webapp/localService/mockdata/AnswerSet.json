@@ -1,0 +1,795 @@
+[{
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 1",
+	"QuestionId": "QuestionId 1",
+	"CustomValue": null,
+	"Zorder": 0,
+	"Type": null,
+	"Value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MAX_LENGTH",
+		"value": 200,
+		"value2": null,
+		"error_message": "Answer too long"
+	}],
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 1',QuestionId='QuestionId 1',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 2",
+	"QuestionId": "QuestionId 2",
+	"CustomValue": null,
+	"Zorder": 0,
+	"Type": null,
+	"Value": "htttp://www.supplier.it",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 10,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MAX_LENGTH",
+		"value": 200,
+		"value2": null,
+		"error_message": "Answer too long"
+	}],
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 2',QuestionId='QuestionId 2',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "0-5",
+	"Description": null,
+	"AnswerId": "AnswerId 3",
+	"QuestionId": "QuestionId 3",
+	"CustomValue": null,
+	"Zorder": 0,
+	"Type": null,
+	"Selected": true,
+	"Constraints": [],
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 3',QuestionId='QuestionId 3',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "6-15",
+	"Description": null,
+	"AnswerId": "AnswerId 4",
+	"QuestionId": "QuestionId 3",
+	"CustomValue": null,
+	"Zorder": 1,
+	"Type": null,
+	"Constraints": [],
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 4',QuestionId='QuestionId 3',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Maggiore di 16",
+	"Description": null,
+	"AnswerId": "AnswerId 5",
+	"QuestionId": "QuestionId 3",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": null,
+	"Constraints": [],
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 5',QuestionId='QuestionId 3',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Fatturato",
+	"Description": null,
+	"AnswerId": "AnswerId 6",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "1000",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 6',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Valuta",
+	"Description": null,
+	"AnswerId": "AnswerId 7",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "CURRENCY",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}],
+	"Value": "EUR",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 7',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Anno",
+	"Description": null,
+	"AnswerId": "AnswerId 8",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "2016",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 8',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Fatturato",
+	"Description": null,
+	"AnswerId": "AnswerId 9",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "10000",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 9',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Valuta",
+	"Description": null,
+	"AnswerId": "AnswerId 10",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "CURRENCY",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}],
+	"Value": "EUR",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 10',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Anno",
+	"Description": null,
+	"AnswerId": "AnswerId 11",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "2015",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 11',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Fatturato",
+	"Description": null,
+	"AnswerId": "AnswerId 12",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "100000",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 12',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Valuta",
+	"Description": null,
+	"AnswerId": "AnswerId 13",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "CURRENCY",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}],
+	"Value": "EUR",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 13',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Anno",
+	"Description": null,
+	"AnswerId": "AnswerId 14",
+	"QuestionId": "QuestionId 4",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "2014",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 14',QuestionId='QuestionId 4',SurveyId='SurveyId 1',GroupId='GroupId 2')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Fatturato",
+	"Description": null,
+	"AnswerId": "AnswerId 15",
+	"QuestionId": "QuestionId 5",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "99999999999999999",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 15',QuestionId='QuestionId 5',SurveyId='SurveyId 1',GroupId='GroupId 3')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Valuta",
+	"Description": null,
+	"AnswerId": "AnswerId 16",
+	"QuestionId": "QuestionId 5",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "CURRENCY",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}],
+	"Value": "EUR",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 16',QuestionId='QuestionId 5',SurveyId='SurveyId 1',GroupId='GroupId 3')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Anno",
+	"Description": null,
+	"AnswerId": "AnswerId 17",
+	"QuestionId": "QuestionId 5",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "2014",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 17',QuestionId='QuestionId 5',SurveyId='SurveyId 1',GroupId='GroupId 3')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 18",
+	"QuestionId": "QuestionId 6",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "FILE",
+	"Constraints": [],
+	"Value": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf",
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 18',QuestionId='QuestionId 6',SurveyId='SurveyId 1',GroupId='GroupId 4')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Descrizione",
+	"Description": null,
+	"AnswerId": "AnswerId 19",
+	"QuestionId": "QuestionId 6",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [],
+	"Value": "Organigramma Aziendale",
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 19',QuestionId='QuestionId 6',SurveyId='SurveyId 1',GroupId='GroupId 4')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 20",
+	"QuestionId": "QuestionId 7",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "DATEPICKER",
+	"Constraints": [],
+	"Value": "20160213",
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 20',QuestionId='QuestionId 7',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Importo Medio",
+	"Description": null,
+	"AnswerId": "AnswerId 21",
+	"QuestionId": "QuestionId 8",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_LENGTH",
+		"value": 1,
+		"value2": null,
+		"error_message": "Answer too short"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "IS_NUMBER",
+		"value": null,
+		"value2": null,
+		"error_message": "Must be a valid number"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "GREATER_EQ_THAN",
+		"value": 1,
+		"value2": null,
+		"error_message": "Must be a positive number greater than 1"
+	}],
+	"Value": "130000",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 21',QuestionId='QuestionId 8',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 22",
+	"QuestionId": "QuestionId 8",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "CURRENCY",
+	"Constraints": [],
+	"Value": "EUR",
+	"Selected": false,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 22',QuestionId='QuestionId 8',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": null,
+	"Description": null,
+	"AnswerId": "AnswerId 23",
+	"QuestionId": "QuestionId 9",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "FILE",
+	"Constraints": [],
+	"Value": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf",
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 23',QuestionId='QuestionId 9',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Descrizione",
+	"Description": null,
+	"AnswerId": "AnswerId 24",
+	"QuestionId": "QuestionId 9",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "TEXT",
+	"Constraints": [],
+	"Value": "Certificazione N28171AZ",
+	"Selected": true,
+	"Mandatory": false,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 24',QuestionId='QuestionId 9',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "Data di Scadenza",
+	"Description": null,
+	"AnswerId": "AnswerId 25",
+	"QuestionId": "QuestionId 9",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "DATEPICKER",
+	"Constraints": [],
+	"Value": "20150906",
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 25',QuestionId='QuestionId 9',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}, {
+	"Title": "non scade mai",
+	"Description": null,
+	"AnswerId": "AnswerId 26",
+	"QuestionId": "QuestionId 9",
+	"CustomValue": null,
+	"Zorder": 2,
+	"Type": "SINGLE_CHECKBOX",
+	"Constraints": [],
+	"Value": null,
+	"Selected": true,
+	"Mandatory": true,
+	"SurveyId": "SurveyId 1",
+	"GroupId": "GroupId 1",
+	"HsnePoints": 6799,
+	"__metadata": {
+		"uri": "AnswerSet(AnswerId='AnswerId 26',QuestionId='QuestionId 9',SurveyId='SurveyId 1',GroupId='GroupId 1')",
+		"type": "ZVIP_PROJECT_SRV.Answer"
+	}
+}]

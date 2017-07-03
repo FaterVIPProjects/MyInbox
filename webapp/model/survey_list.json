@@ -1,0 +1,2122 @@
+[
+    {
+        "id": 0,
+        "done_by_fater": false,
+        "type": "PRE_QUALIFICATION",
+        "supplier_reference": {
+            "id": 1,
+            "role": "SUPPLIER",
+            "internal": false,
+            "firstname": "Mark",
+            "surname": "Rudolf",
+            "email": "mark.rufolf@fameccanica.com",
+            "cluster": null,
+            "supplier": {
+                "id": 1,
+                "supplier_roles": [
+                    "BIDDER",
+                    "ORDER_MANAGER",
+                    "BANK_STATEMENTS"
+                ],
+                "note": "Pay always in time.",
+                "status": "POTENTIAL_BIDDER",
+                "supplier_code": "61016776",
+                "bidder_code": "1000000012",
+                "header_sap": "ALIM.",
+                "business_name": "Pistilli Costruzioni Di Pistilli Berardino E C.",
+                "search_keyword": "pistilli_search_keyword_001111",
+                "address": "Viadotto Cannete",
+                "street_number": "1",
+                "cap": "55012",
+                "locality": "CB",
+                "country": "IT",
+                "province": "Campobasso",
+                "language": "IT",
+                "phone": "0874 348428",
+                "fax": "0874 348428",
+                "email": "info@pistillicostruzioni.com",
+                "preferred_contact": "INT e-mail",
+                "contact_title": "Mr.",
+                "contact_name": "Marco",
+                "contact_surname": "Ridolfi",
+                "contact_area": "Marketing",
+                "contact_tel_number": "0874 348428",
+                "contact_cell_number": "3254785415",
+                "contact_email": "marco.ridolfi@pistillicostruzioni.com",
+                "clusters": [
+                    {
+                        "id": 1,
+                        "name": "Materiali Tecnici"
+                    }
+                ],
+                "industrial_sector": "ZF10",
+                "type": "NATIONAL",
+                "vat_it": "856080700",
+                "vat_cee": null,
+                "fater_company": {
+                    "id": 1,
+                    "code": "20",
+                    "name": "FATER S.P.A.",
+                    "payment_info": {
+                        "id": 0,
+                        "physical_person": null,
+                        "birth_city": null,
+                        "birth_date": null,
+                        "gender": null,
+                        "fiscal_code": null,
+                        "profession": null,
+                        "supplier_withholding": null,
+                        "bank_name": "Gruppo Banca Sella",
+                        "bank_address": "Viale S. Concordio, 349/355, 55100 Lucca LU",
+                        "abi": "03268",
+                        "cab": "10001",
+                        "bank_account": "100000000000",
+                        "cin": "X",
+                        "branch": null,
+                        "branch_code": null,
+                        "swift": "11",
+                        "iban": "IT11X0326810001100000000000",
+                        "backup_account": "Conto benef. altern. Pagamento",
+                        "reconciliation_account": "Conto riconciliazione",
+                        "classification_key": "000",
+                        "payment_condition": "B305",
+                        "payment_condition_text": "Condizioni di pagamento",
+                        "check_double_invoice": false,
+                        "payment_method": "A"
+                    }
+                },
+                "fater_purchasing_organization": {
+                    "id": 2,
+                    "code": "10",
+                    "name": "Org. Acq. FATER",
+                    "buy_info": {
+                        "id": 0,
+                        "buy_currency": "EUR",
+                        "buy_payment_condition": "B305",
+                        "buy_incoterms_code": "CFR",
+                        "buy_incoterms_place": "Incoterms Place",
+                        "buy_check_invoice_em": false
+                    }
+                },
+                "contact_commercial_name": "Elena",
+                "contact_commercial_surname": "Siffredi",
+                "contact_commercial_email": "elena.siffredi@pistillicostruzioni.com",
+                "contact_administration_name": null,
+                "contact_administration_surname": null,
+                "contact_administration_email": null,
+                "contact_oda_name": null,
+                "contact_oda_surname": null,
+                "contact_oda_email": null
+            }
+        },
+        "commercial_reference": {
+            "id": 2,
+            "role": "COMMERCIAL_REFERENCE",
+            "internal": true,
+            "firstname": "Emanuele",
+            "surname": "Ricci",
+            "email": "emanuele.ricci@fatergroup.com",
+            "cluster": null,
+            "supplier": null
+        },
+        "commercial_manager": {
+            "id": 2,
+            "role": "COMMERCIAL_MANAGER",
+            "internal": true,
+            "firstname": "Rodolfo",
+            "surname": "Paladini",
+            "email": "rodolfo.paladini@fatergroup.com",
+            "cluster": {
+                "id": 1,
+                "name": "Materiali Tecnici"
+            },
+            "supplier": null
+        },
+        "registry_manager": {
+            "id": 2,
+            "role": "ANAGRAPHIC_MANAGER",
+            "internal": true,
+            "firstname": "Alberino",
+            "surname": "Battagliola",
+            "email": "a.battagliola@fatergroup.com",
+            "cluster": null,
+            "supplier": null
+        },
+        "expire_timestamp": "2016-08-07T13:35:06.132Z",
+        "sent_timestamp": "2016-07-23T13:35:06.133Z",
+        "completed_timestamp": "2016-08-02T11:35:06.133Z",
+        "status": "SUBMITTED",
+        "note": "Survey completed with all informations that we need",
+        "ip_address": "116.12.250.1",
+        "user_agent": null,
+        "referer": null,
+        "survey": {
+            "id": 1,
+            "owner": {
+                "id": 2,
+                "role": "COMMERCIAL_REFERENCE",
+                "internal": true,
+                "firstname": "Emanuele",
+                "surname": "Ricci",
+                "email": "emanuele.ricci@fatergroup.com",
+                "cluster": null,
+                "supplier": null
+            },
+            "cluster": {
+                "id": 1,
+                "name": "Materiali Tecnici"
+            },
+            "title": "Paper General information",
+            "description": null,
+            "group_count": 4,
+            "participation_count": 0,
+            "status": "RUNNING",
+            "can_recompile": false,
+            "created": "2016-08-02T13:35:06.123Z",
+            "updated": "2016-08-02T13:35:06.123Z",
+            "groups": [
+                {
+                    "id": 1,
+                    "survey_id": 1,
+                    "constraints": [],
+                    "type": "Informazioni su azienda",
+                    "title": "GENERAL",
+                    "target_point": 90,
+                    "threshold_point": 80,
+                    "weight": 1,
+                    "question_count": 11,
+                    "questions": [
+                        {
+                            "id": 2,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "Descrizione dell'azienda e dei principali prodotti/servizi trattati",
+                            "description": null,
+                            "type": "TEXT_AREA",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "group_id": 1,
+                                    "question_id": 2,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 4,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "Indicare la URL del sito web",
+                            "description": null,
+                            "type": "TEXT",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 2,
+                                    "group_id": 1,
+                                    "question_id": 4,
+                                    "constraints": [
+                                        
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 10,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "http://www.fameccanica.com/"
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 6,
+                            "group_id": 1,
+                            "mandatory": false,
+                            "title": "Indicare gli anni di attivitÃ  dell'azienda",
+                            "description": null,
+                            "type": "TEXT_SINGLE_CHOICE",
+                            "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_ANSWER",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Select at least 1 answer"
+                                        }, {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_ANSWER",
+                                            "value": 2,
+                                            "value2": null,
+                                            "error_message": "Select at max 2 answer"
+                                        }],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 3,
+                                    "group_id": 1,
+                                    "question_id": 6,
+                                    "constraints": [],
+                                    "title": "0-5",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0
+                                },
+                                {
+                                    "id": 4,
+                                    "group_id": 1,
+                                    "question_id": 6,
+                                    "constraints": [],
+                                    "title": "6-15",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                },
+                                {
+                                    "id": 5,
+                                    "group_id": 1,
+                                    "question_id": 6,
+                                    "constraints": [],
+                                    "title": "Maggiore di 16",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 8,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "In quali paesi opera la vostra azienda?",
+                            "description": null,
+                            "type": "TEXT_MULTI_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 6,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Western Europe",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 7,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Eastern Europe",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 8,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Africa",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 9,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "North America",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 10,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Central America",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 11,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "South America",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 12,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Asia",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 13,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Oceania",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 14,
+                                    "group_id": 1,
+                                    "question_id": 8,
+                                    "constraints": [],
+                                    "title": "Africa",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 10,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "Indicare il settore dell'azienda",
+                            "description": null,
+                            "type": "TEXT_SINGLE_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 15,
+                                    "group_id": 1,
+                                    "question_id": 10,
+                                    "constraints": [],
+                                    "title": "Pubblica",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 16,
+                                    "group_id": 1,
+                                    "question_id": 10,
+                                    "constraints": [],
+                                    "title": "Private",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 12,
+                            "group_id": 1,
+                            "mandatory": false,
+                            "title": "Riportare una breve descrizione delle vostre referenze maturate presso i vostri clienti",
+                            "description": null,
+                            "type": "TEXT_AREA",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 17,
+                                    "group_id": 1,
+                                    "question_id": 12,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "Ad ulteriormente incrementare la forza della organizzazione, concorrono tutti i nostri fornitori, certificati e qualificati, che con la loro dedizione e professionalitÃ  ci aiutano, lavorando in partnership con noi, a garantire gli standard qualitativi Fameccanica e la competitivitÃ  dei nostri prodotti."
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 14,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "La vostra azienda Ã¨ iscritta alla camera di commercio?",
+                            "description": null,
+                            "type": "SINGLE_CHECKBOX",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 18,
+                                    "group_id": 1,
+                                    "question_id": 14,
+                                    "constraints": [],
+                                    "title": "Si",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 16,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "Inserire il numero di iscrizione alla Camera di Commercio",
+                            "description": null,
+                            "type": "TEXT",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 20,
+                                    "group_id": 1,
+                                    "question_id": 16,
+                                    "constraints": [],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "123234554343443443434"
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 18,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "AttivitÃ ",
+                            "description": null,
+                            "type": "TEXT_SINGLE_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 21,
+                                    "group_id": 1,
+                                    "question_id": 18,
+                                    "constraints": [],
+                                    "title": "Produttore",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 22,
+                                    "group_id": 1,
+                                    "question_id": 18,
+                                    "constraints": [],
+                                    "title": "Rivenditore",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 20,
+                            "group_id": 1,
+                            "mandatory": true,
+                            "title": "Selezionare uno o piÃ¹ categorie merceologiche",
+                            "description": null,
+                            "type": "TEXT_MULTI_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 23,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Meccanica",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 24,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Lavorati Meccanici di precisione ",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 25,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Pneumatica  ed oleodinamica",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 26,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Filtrazione ed aspirazione industriale",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 27,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Divise  da lavoro",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 28,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Mobili e arredi per ufficio",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 29,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Cancelleria e stampati",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 30,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Automazione",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 31,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Nastri e cinghie di trasporto",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 32,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Materiale elettrico ed elettronico",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 33,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Materiali per imp. idraulici, igienico-sanitaria",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 34,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Forniture materiali ICT",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 35,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Forniture sanitarie",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 36,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Imballaggio e confezionamento",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 37,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Lavorati in metallo",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 38,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Macchine da ufficio",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 39,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Antinfortunistica e Segnaletica",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 40,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Materiali di consumo",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 41,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Prodotti chimici",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 42,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Mezzi per movimentazione",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 43,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Scale e trabattelli",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 44,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Scaffalature, armadi e contenitori industriali",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 45,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Strumenti da laboratorio",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 46,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Ferramenta",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                },
+                                {
+                                    "id": 47,
+                                    "group_id": 1,
+                                    "question_id": 20,
+                                    "constraints": [],
+                                    "title": "Macchine per impianti di servizio",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 2
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 22,
+                            "group_id": 1,
+                            "mandatory": false,
+                            "title": "Principali Brand ",
+                            "description": null,
+                            "type": "TEXT_AREA",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 48,
+                                    "group_id": 1,
+                                    "question_id": 22,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "FA-X- P10 / FNL P15 / FIX P5X / PAKSIS N-12 / LPP3"
+                                }
+                            ],
+                            "order": 0
+                        }
+                    ],
+                    "user_score": 100
+                },
+                {
+                    "id": 2,
+                    "survey_id": 1,
+                    "constraints": [],
+                    "type": "Dati finanziari",
+                    "title": "FINANCIAL",
+                    "target_point": 90,
+                    "threshold_point": 80,
+                    "weight": 1,
+                    "question_count": 4,
+                    "questions": [
+                        {
+                            "id": 24,
+                            "group_id": 2,
+                            "mandatory": true,
+                            "title": "Inserire il documento di attestazione conto corrente bancario",
+                            "description": null,
+                            "type": "FILE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 49,
+                                    "group_id": 2,
+                                    "question_id": 24,
+                                    "constraints": [],
+                                    "title": null,
+                                    "description": null,
+                                    "type": "FILE",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                },
+                                {
+                                    "id": 50,
+                                    "group_id": 2,
+                                    "question_id": 24,
+                                    "constraints": [],
+                                    "title": "Descrizione",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "Documento attestazione conto corrente"
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 26,
+                            "group_id": 2,
+                            "mandatory": true,
+                            "title": "Fatturato degli ultimi 3 anni",
+                            "description": null,
+                            "type": "YEAR_REVENUE_3",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 51,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Fatturato",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "1000"
+                                },
+                                {
+                                    "id": 52,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        }
+                                    ],
+                                    "title": "Valuta",
+                                    "description": null,
+                                    "type": "CURRENCY",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "EURO"
+                                },
+                                {
+                                    "id": 53,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Anno",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "2016"
+                                },
+                                {
+                                    "id": 54,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Fatturato",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "1001"
+                                },
+                                {
+                                    "id": 55,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        }
+                                    ],
+                                    "title": "Valuta",
+                                    "description": null,
+                                    "type": "CURRENCY",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "EURO"
+                                },
+                                {
+                                    "id": 56,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Anno",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "2015"
+                                },
+                                {
+                                    "id": 57,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Fatturato",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "1002"
+                                },
+                                {
+                                    "id": 58,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        }
+                                    ],
+                                    "title": "Valuta",
+                                    "description": null,
+                                    "type": "CURRENCY",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "EURO"
+                                },
+                                {
+                                    "id": 59,
+                                    "group_id": 2,
+                                    "question_id": 26,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MIN_LENGTH",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Answer too short"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Anno",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "2014"
+                                }
+                            ],
+                            "order": 1
+                        },
+                        {
+                            "id": 28,
+                            "group_id": 2,
+                            "mandatory": false,
+                            "title": "Inserire il capitale sociale dell'azienda",
+                            "description": null,
+                            "type": "YEAR_REVENUE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 60,
+                                    "group_id": 2,
+                                    "question_id": 28,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Fatturato",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "99999999999"
+                                },
+                                {
+                                    "id": 61,
+                                    "group_id": 2,
+                                    "question_id": 28,
+                                    "constraints": [],
+                                    "title": "Valuta",
+                                    "description": null,
+                                    "type": "CURRENCY",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "EURO"
+                                },
+                                {
+                                    "id": 62,
+                                    "group_id": 2,
+                                    "question_id": 28,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "IS_NUMBER",
+                                            "value": null,
+                                            "value2": null,
+                                            "error_message": "Must be a valid number"
+                                        },
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "GREATER_EQ_THAN",
+                                            "value": 1,
+                                            "value2": null,
+                                            "error_message": "Must be a positive number greater than 1"
+                                        }
+                                    ],
+                                    "title": "Anno",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "2016"
+                                }
+                            ],
+                            "order": 1
+                        },
+                        {
+                            "id": 30,
+                            "group_id": 2,
+                            "mandatory": true,
+                            "title": "Dichiarare la disponibilitÃ  nel processo di valutazione del rischio",
+                            "description": null,
+                            "type": "TEXT_SINGLE_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 63,
+                                    "group_id": 2,
+                                    "question_id": 30,
+                                    "constraints": [],
+                                    "title": "Si",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 64,
+                                    "group_id": 2,
+                                    "question_id": 30,
+                                    "constraints": [],
+                                    "title": "No",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                }
+                            ],
+                            "order": 0
+                        }
+                    ],
+                    "user_score": 100
+                },
+                {
+                    "id": 3,
+                    "survey_id": 1,
+                    "constraints": [],
+                    "type": "Organizzazione",
+                    "title": "ORGANIZATION",
+                    "target_point": 90,
+                    "threshold_point": 70,
+                    "weight": 1,
+                    "question_count": 2,
+                    "questions": [
+                        {
+                            "id": 32,
+                            "group_id": 3,
+                            "mandatory": false,
+                            "title": "Effettuare il caricamento del file con la descrizione dell'organigramma aziendale",
+                            "description": null,
+                            "type": "FILE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 65,
+                                    "group_id": 3,
+                                    "question_id": 32,
+                                    "constraints": [],
+                                    "title": null,
+                                    "description": null,
+                                    "type": "FILE",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                },
+                                {
+                                    "id": 66,
+                                    "group_id": 3,
+                                    "question_id": 32,
+                                    "constraints": [],
+                                    "title": "Descrizione",
+                                    "description": null,
+                                    "type": "TEXT",
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "Organigramma Aziendale"
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 34,
+                            "group_id": 3,
+                            "mandatory": true,
+                            "title": "Inserire il numenro totale di dipendenti",
+                            "description": null,
+                            "type": "TEXT_SINGLE_CHOICE",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 67,
+                                    "group_id": 3,
+                                    "question_id": 34,
+                                    "constraints": [],
+                                    "title": "1-9",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0
+                                },
+                                {
+                                    "id": 68,
+                                    "group_id": 3,
+                                    "question_id": 34,
+                                    "constraints": [],
+                                    "title": "10-49",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                },
+                                {
+                                    "id": 69,
+                                    "group_id": 3,
+                                    "question_id": 34,
+                                    "constraints": [],
+                                    "title": "50-249",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1,
+                                    "selected": true
+                                },
+                                {
+                                    "id": 70,
+                                    "group_id": 3,
+                                    "question_id": 34,
+                                    "constraints": [],
+                                    "title": "> 250",
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 1
+                                }
+                            ],
+                            "order": 0
+                        }
+                    ],
+                    "user_score": 100
+                },
+                {
+                    "id": 4,
+                    "survey_id": 1,
+                    "constraints": [],
+                    "type": "QualitÃ , Sicurezza e SostenibilitÃ ",
+                    "title": "QUALITY",
+                    "target_point": 90,
+                    "threshold_point": 80,
+                    "weight": 1,
+                    "question_count": 2,
+                    "questions": [
+                        {
+                            "id": 36,
+                            "group_id": 4,
+                            "mandatory": false,
+                            "title": "Elencare le certificazioni ISO possedute",
+                            "description": null,
+                            "type": "TEXT_AREA",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 71,
+                                    "group_id": 4,
+                                    "question_id": 36,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "ISO 9000, ISO 9001"
+                                }
+                            ],
+                            "order": 0
+                        },
+                        {
+                            "id": 38,
+                            "group_id": 4,
+                            "mandatory": false,
+                            "title": "Elencare le altre certificazioni possedute",
+                            "description": null,
+                            "type": "TEXT_AREA",
+                            "constraints": [],
+                            "options": {},
+                            "answers": [
+                                {
+                                    "id": 72,
+                                    "group_id": 4,
+                                    "question_id": 38,
+                                    "constraints": [
+                                        {
+                                            "scenario": "VALIDATE",
+                                            "group_id": null,
+                                            "question_id": null,
+                                            "answer_id": null,
+                                            "type": "MAX_LENGTH",
+                                            "value": 200,
+                                            "value2": null,
+                                            "error_message": "Answer too long"
+                                        }
+                                    ],
+                                    "title": null,
+                                    "description": null,
+                                    "type": null,
+                                    "custom_value": null,
+                                    "order": 0,
+                                    "selected": true,
+                                    "value": "Nessun ulteriore certificazione"
+                                }
+                            ],
+                            "order": 0
+                        }
+                    ],
+                    "user_score": 85
+                }
+            ]
+        },
+        "tickets": {
+            "internal": [
+                {
+                    "id": 3,
+                    "internal": true,
+                    "owner": {
+                        "id": 2,
+                        "role": "COMMERCIAL_REFERENCE",
+                        "internal": true,
+                        "firstname": "Emanuele",
+                        "surname": "Ricci",
+                        "email": "emanuele.ricci@fatergroup.com",
+                        "cluster": null,
+                        "supplier": null
+                    },
+                    "title": "[INTERNAL] Need verification",
+                    "messages":[
+                    	{    
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },
+                        	"message": "Please verify with Dave on the status",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	
+                    	},{
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },              
+                        	"message": "test2",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	                    	
+                    	}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "internal": true,
+                    "owner": {
+                        "id": 1,
+                        "role": "SUPPLIER",
+                        "internal": false,
+                        "firstname": "Mark",
+                        "surname": "Rudolf",
+                        "email": "mark.rufolf@fameccanica.com",
+                        "cluster": null,
+                        "supplier": {
+                            "id": 1,
+                            "supplier_roles": [
+                                "BIDDER",
+                                "ORDER_MANAGER",
+                                "BANK_STATEMENTS"
+                            ],
+                            "note": "Pay always in time.",
+                            "status": "POTENTIAL_BIDDER",
+                            "supplier_code": "61016776",
+                            "bidder_code": "1000000012",
+                            "header_sap": "ALIM.",
+                            "business_name": "Pistilli Costruzioni Di Pistilli Berardino E C.",
+                            "search_keyword": "pistilli_search_keyword_001111",
+                            "address": "Viadotto Cannete",
+                            "street_number": "1",
+                            "cap": "55012",
+                            "locality": "CB",
+                            "country": "IT",
+                            "province": "Campobasso",
+                            "language": "IT",
+                            "phone": "0874 348428",
+                            "fax": "0874 348428",
+                            "email": "info@pistillicostruzioni.com",
+                            "preferred_contact": "INT e-mail",
+                            "contact_title": "Mr.",
+                            "contact_name": "Marco",
+                            "contact_surname": "Ridolfi",
+                            "contact_area": "Marketing",
+                            "contact_tel_number": "0874 348428",
+                            "contact_cell_number": "3254785415",
+                            "contact_email": "marco.ridolfi@pistillicostruzioni.com",
+                            "clusters": [
+                                {
+                                    "id": 1,
+                                    "name": "Materiali Tecnici"
+                                }
+                            ],
+                            "industrial_sector": "ZF10",
+                            "type": "NATIONAL",
+                            "vat_it": "856080700",
+                            "vat_cee": null,
+                            "fater_company": {
+                                "id": 1,
+                                "code": "20",
+                                "name": "FATER S.P.A.",
+                                "payment_info": {
+                                    "id": 0,
+                                    "physical_person": null,
+                                    "birth_city": null,
+                                    "birth_date": null,
+                                    "gender": null,
+                                    "fiscal_code": null,
+                                    "profession": null,
+                                    "supplier_withholding": null,
+                                    "bank_name": "Gruppo Banca Sella",
+                                    "bank_address": "Viale S. Concordio, 349/355, 55100 Lucca LU",
+                                    "abi": "03268",
+                                    "cab": "10001",
+                                    "bank_account": "100000000000",
+                                    "cin": "X",
+                                    "branch": null,
+                                    "branch_code": null,
+                                    "swift": "11",
+                                    "iban": "IT11X0326810001100000000000",
+                                    "backup_account": "Conto benef. altern. Pagamento",
+                                    "reconciliation_account": "Conto riconciliazione",
+                                    "classification_key": "000",
+                                    "payment_condition": "B305",
+                                    "payment_condition_text": "Condizioni di pagamento",
+                                    "check_double_invoice": false,
+                                    "payment_method": "A"
+                                }
+                            },
+                            "fater_purchasing_organization": {
+                                "id": 2,
+                                "code": "10",
+                                "name": "Org. Acq. FATER",
+                                "buy_info": {
+                                    "id": 0,
+                                    "buy_currency": "EUR",
+                                    "buy_payment_condition": "B305",
+                                    "buy_incoterms_code": "CFR",
+                                    "buy_incoterms_place": "Incoterms Place",
+                                    "buy_check_invoice_em": false
+                                }
+                            },
+                            "contact_commercial_name": "Elena",
+                            "contact_commercial_surname": "Siffredi",
+                            "contact_commercial_email": "elena.siffredi@pistillicostruzioni.com",
+                            "contact_administration_name": null,
+                            "contact_administration_surname": null,
+                            "contact_administration_email": null,
+                            "contact_oda_name": null,
+                            "contact_oda_surname": null,
+                            "contact_oda_email": null
+                        }
+                    },
+                    "title": "[INTERNAL]Need verification",
+					"messages":[
+                    	{    
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },
+                        	"message": "Please verify with Dave on the status",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	
+                    	},{
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },              
+                        	"message": "test2",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	                    	
+                    	}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "internal": true,
+                    "owner": {
+                        "id": 2,
+                        "role": "ANAGRAPHIC_MANAGER",
+                        "internal": true,
+                        "firstname": "Alberino",
+                        "surname": "Battagliola",
+                        "email": "a.battagliola@fatergroup.com",
+                        "cluster": null,
+                        "supplier": null
+                    },
+                    "title": "[INTERNAL]Need verification",
+					"messages":[
+                    	{    
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },
+                        	"message": "Please verify with Dave on the status",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	
+                    	},{
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },              
+                        	"message": "test2",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	                    	
+                    	}
+                    ]
+                }
+            ],
+            "external": [
+                {
+                    "id": 0,
+                    "internal": false,
+                    "owner": {
+                        "id": 2,
+                        "role": "COMMERCIAL_REFERENCE",
+                        "internal": true,
+                        "firstname": "Emanuele",
+                        "surname": "Ricci",
+                        "email": "emanuele.ricci@fatergroup.com",
+                        "cluster": null,
+                        "supplier": null
+                    },
+                    "title": "Need verification",
+					"messages":[
+                    	{    
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },
+                        	"message": "Please verify with Dave on the status",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	
+                    	},{
+                    		"owner": {
+		                        "id": 2,
+		                        "role": "COMMERCIAL_REFERENCE",
+		                        "internal": true,
+		                        "firstname": "Emanuele",
+		                        "surname": "Ricci",
+		                        "email": "emanuele.ricci@fatergroup.com",
+		                        "cluster": null,
+		                        "supplier": null
+		                    },              
+                        	"message": "test2",
+                    		"create_timestamp": "2016-07-28T07:25:43.798Z",
+                    		"update_timestamp": "2016-07-28T09:25:43.798Z"	                    	
+                    	}
+                    ]
+                },
+                {
+                    "id": 1,
+                    "internal": false,
+                    "owner": {
+                        "id": 1,
+                        "role": "SUPPLIER",
+                        "internal": false,
+                        "firstname": "Mark",
+                        "surname": "Rudolf",
+                        "email": "mark.rufolf@fameccanica.com",
+                        "cluster": null,
+                        "supplier": {
+                            "id": 1,
+                            "supplier_roles": [
+                                "BIDDER",
+                                "ORDER_MANAGER",
+                                "BANK_STATEMENTS"
+                            ],
+                            "note": "Pay always in time.",
+                            "status": "POTENTIAL_BIDDER",
+                            "supplier_code": "61016776",
+                            "bidder_code": "1000000012",
+                            "header_sap": "ALIM.",
+                            "business_name": "Pistilli Costruzioni Di Pistilli Berardino E C.",
+                            "search_keyword": "pistilli_search_keyword_001111",
+                            "address": "Viadotto Cannete",
+                            "street_number": "1",
+                            "cap": "55012",
+                            "locality": "CB",
+                            "country": "IT",
+                            "province": "Campobasso",
+                            "language": "IT",
+                            "phone": "0874 348428",
+                            "fax": "0874 348428",
+                            "email": "info@pistillicostruzioni.com",
+                            "preferred_contact": "INT e-mail",
+                            "contact_title": "Mr.",
+                            "contact_name": "Marco",
+                            "contact_surname": "Ridolfi",
+                            "contact_area": "Marketing",
+                            "contact_tel_number": "0874 348428",
+                            "contact_cell_number": "3254785415",
+                            "contact_email": "marco.ridolfi@pistillicostruzioni.com",
+                            "clusters": [
+                                {
+                                    "id": 1,
+                                    "name": "Materiali Tecnici"
+                                }
+                            ],
+                            "industrial_sector": "ZF10",
+                            "type": "NATIONAL",
+                            "vat_it": "856080700",
+                            "vat_cee": null,
+                            "fater_company": {
+                                "id": 1,
+                                "code": "20",
+                                "name": "FATER S.P.A.",
+                                "payment_info": {
+                                    "id": 0,
+                                    "physical_person": null,
+                                    "birth_city": null,
+                                    "birth_date": null,
+                                    "gender": null,
+                                    "fiscal_code": null,
+                                    "profession": null,
+                                    "supplier_withholding": null,
+                                    "bank_name": "Gruppo Banca Sella",
+                                    "bank_address": "Viale S. Concordio, 349/355, 55100 Lucca LU",
+                                    "abi": "03268",
+                                    "cab": "10001",
+                                    "bank_account": "100000000000",
+                                    "cin": "X",
+                                    "branch": null,
+                                    "branch_code": null,
+                                    "swift": "11",
+                                    "iban": "IT11X0326810001100000000000",
+                                    "backup_account": "Conto benef. altern. Pagamento",
+                                    "reconciliation_account": "Conto riconciliazione",
+                                    "classification_key": "000",
+                                    "payment_condition": "B305",
+                                    "payment_condition_text": "Condizioni di pagamento",
+                                    "check_double_invoice": false,
+                                    "payment_method": "A"
+                                }
+                            },
+                            "fater_purchasing_organization": {
+                                "id": 2,
+                                "code": "10",
+                                "name": "Org. Acq. FATER",
+                                "buy_info": {
+                                    "id": 0,
+                                    "buy_currency": "EUR",
+                                    "buy_payment_condition": "B305",
+                                    "buy_incoterms_code": "CFR",
+                                    "buy_incoterms_place": "Incoterms Place",
+                                    "buy_check_invoice_em": false
+                                }
+                            },
+                            "contact_commercial_name": "Elena",
+                            "contact_commercial_surname": "Siffredi",
+                            "contact_commercial_email": "elena.siffredi@pistillicostruzioni.com",
+                            "contact_administration_name": null,
+                            "contact_administration_surname": null,
+                            "contact_administration_email": null,
+                            "contact_oda_name": null,
+                            "contact_oda_surname": null,
+                            "contact_oda_email": null
+                        }
+                    },
+                    "title": "Need verification",
+                    "message": "We should check with everyone involved and make a decision",
+                    "create_timestamp": "2016-08-02T05:35:06.134Z",
+                    "update_timestamp": "2016-08-02T07:35:06.134Z"
+                },
+                {
+                    "id": 2,
+                    "internal": false,
+                    "owner": {
+                        "id": 2,
+                        "role": "ANAGRAPHIC_MANAGER",
+                        "internal": true,
+                        "firstname": "Alberino",
+                        "surname": "Battagliola",
+                        "email": "a.battagliola@fatergroup.com",
+                        "cluster": null,
+                        "supplier": null
+                    },
+                    "title": "Need verification",
+                    "message": "I'm very confident we will come to a conclusion very soon.",
+                    "create_timestamp": "2016-08-02T10:35:06.134Z",
+                    "update_timestamp": "2016-08-02T12:35:06.134Z"
+                }
+            ]
+        },
+        "anagraphic_data": {
+            "generic": {
+                "supplier_bidder": "1234567890",
+                "business_name": "Fameccanica Data S.p.A.",
+                "address": "Via di milano",
+                "address_number": "320",
+                "cap": "55100, Milano",
+                "country": "Italy",
+                "province": "Milano"
+            },
+            "fiscal": {
+                "vat": "IT425554122548",
+                "iban": "IT0000000000009254"
+            },
+            "contact": {
+                "title": "",
+                "name": "Emanuele",
+                "surname": "Ricci",
+                "area": "Marketing",
+                "telephone": "0583924574",
+                "cellphone": "3257485478",
+                "email": "emanuele.ricci@techedge.com"
+            }
+        }
+    }
+]

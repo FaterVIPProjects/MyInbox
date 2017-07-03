@@ -1,0 +1,236 @@
+[{
+	"QuestionId": "QuestionId 1",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "TEXT_AREA",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Descrizione dell'azienda e dei principali prodotti/servizi trattati",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 1',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 1',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 2",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "TEXT",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Indicare la URL del sito web",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 2',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 2',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 3",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "TEXT_SINGLE_CHOICE",
+	"Constraints": [{
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MIN_ANSWER",
+		"value": 1,
+		"value2": null,
+		"error_message": "Select at least 1 answer"
+	}, {
+		"scenario": "VALIDATE",
+		"group_id": null,
+		"question_id": null,
+		"answer_id": null,
+		"type": "MAX_ANSWER",
+		"value": 2,
+		"value2": null,
+		"error_message": "Select at max 2 answer"
+	}],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Indicare gli anni di attivitÃ  dell'azienda",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 3',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 3',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 4",
+	"GroupId": "GroupId 2",
+	"Mandatory": true,
+	"Type": "YEAR_REVENUE_3",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Fatturato degli ultimi 3 anni",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 4',GroupId='GroupId 2',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 4',GroupId='GroupId 2',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 5",
+	"GroupId": "GroupId 3",
+	"Mandatory": false,
+	"Type": "YEAR_REVENUE",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Inserire il capitale sociale dell'azienda",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 5',GroupId='GroupId 3',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 5',GroupId='GroupId 3',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 6",
+	"GroupId": "GroupId 4",
+	"Mandatory": true,
+	"Type": "FILE",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Effettuare il caricamento del file con la descrizione dell'organigramma aziendale",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 6',GroupId='GroupId 4',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 6',GroupId='GroupId 4',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 7",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "DATEPICKER",
+	"Constraints": [
+	    {
+	        "scenario": "FLOW",
+	        "group_id": "GroupId 1",
+	        "question_id": "QuestionId 3",
+	        "answer_id": "AnswerId 4",
+	        "type": "IS_SELECTED",
+	        "value": null,
+	        "value2": null
+	    }
+	],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Quando e' stata creata l'azienda?",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": false,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 7',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 7',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 8",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "MONEY",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Quanto costa mediamente la tua merce?",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 8',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 8',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}, {
+	"QuestionId": "QuestionId 9",
+	"GroupId": "GroupId 1",
+	"Mandatory": true,
+	"Type": "FILE_CERTIFICATION",
+	"Constraints": [],
+	"Zoption": "Zoption 1",
+	"Zorder": "Zorder 1",
+	"Title": "Upload certificato bancario",
+	"SurveyId": "SurveyId 1",
+	"valueState": null,
+	"valueStateText": null,
+	"Description": "Description 1",
+	"Visible": true,
+	"__metadata": {
+		"uri": "QuestionSet(QuestionId='QuestionId 9',GroupId='GroupId 1',SurveyId='SurveyId 1')",
+		"type": "ZVIP_PROJECT_SRV.Question"
+	},
+	"AnswerS": {
+		"__deferred": {
+			"uri": "QuestionSet(QuestionId='QuestionId 9',GroupId='GroupId 1',SurveyId='SurveyId 1')/AnswerS"
+		}
+	}
+}]

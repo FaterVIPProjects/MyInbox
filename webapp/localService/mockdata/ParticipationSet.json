@@ -1,0 +1,46 @@
+[{
+	"UserAgent": "UserAgent 1",
+	"IpAddress": "IpAddress 1",
+	"ParticipationId": "ParticipationId 1",
+	"CompletedT": "/Date(1537860839000)/",
+	"Referer": "Referer 1",
+	"SurveyId": "SurveyId 1",
+	"ExpireT": "/Date(1272180839000)/",
+	"SentT": "/Date(1401348839000)/",
+	"Note": "Note 1",
+	"Status": "I",
+	"CommercialRefId": "RIF_COMM_01",
+	"DoneByFater": false,
+	"SupplierRefId": "FOR_000001",
+	"Type": "PRE_QUALIFICATION_AND_QUALIFICATION",
+	"CommercManagerId": "RESP_COMM_01",
+	"RegistryManagerId": "RESP_ANAG",
+	"SupplierId": "SupplierId 1",
+	"ModifiedT": "/Date(1257150839000)/",
+	"DraftStat": "DraftStat 1",
+	"Acceptedpaymentcondition": false,
+	"Privacyaccepted": false,
+	"ClusterId": "ClusterId 1",
+	"Bukrs": "Bukrs 1",
+	"Ekorg": "Ekorg 1",
+	"CreatedT": "/Date(1250408039000)/",
+	"__metadata": {
+		"uri": "ParticipationSet('ParticipationId 1')",
+		"type": "ZVIP_PROJECT_SRV.Participation"
+	},
+	"Survey": {
+		"__deferred": {
+			"uri": "ParticipationSet('ParticipationId 1')/Survey"
+		}
+	},
+	"Supplier": {
+		"__deferred": {
+			"uri": "ParticipationSet('ParticipationId 1')/Supplier"
+		}
+	},
+	"Cluster": {
+		"__deferred": {
+			"uri": "ParticipationSet('ParticipationId 1')/Cluster"
+		}
+	}
+}]

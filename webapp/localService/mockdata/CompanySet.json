@@ -1,0 +1,121 @@
+[{
+	"Bukrs": "ClusterId 1",
+	"Butxt": "Butxt 1",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 1')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 1')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 2",
+	"Butxt": "Butxt 2",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 2')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 2')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 3",
+	"Butxt": "Butxt 3",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 3')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 3')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 4",
+	"Butxt": "Butxt 4",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 4')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 4')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 5",
+	"Butxt": "Butxt 5",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 5')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 5')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 6",
+	"Butxt": "Butxt 6",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 6')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 6')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 7",
+	"Butxt": "Butxt 7",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 7')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 7')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 8",
+	"Butxt": "Butxt 8",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 8')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 8')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 9",
+	"Butxt": "Butxt 9",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 9')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 9')/PurchaseOrg"
+		}
+	}
+}, {
+	"Bukrs": "ClusterId 10",
+	"Butxt": "Butxt 10",
+	"__metadata": {
+		"uri": "CompanySet('Bukrs 10')",
+		"type": "ZVIP_PROJECT_SRV.Company"
+	},
+	"PurchaseOrg": {
+		"__deferred": {
+			"uri": "CompanySet('Bukrs 10')/PurchaseOrg"
+		}
+	}
+}]

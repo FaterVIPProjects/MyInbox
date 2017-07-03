@@ -1,0 +1,141 @@
+[{
+	"SupplierId": "ParticipationId 1",
+	"Ekorg": "Ekorg 1",
+	"BuyCurrency": "BuyCurrency 1",
+	"BuyPaymentCondition": "BuyPaymentCondition 1",
+	"BuyIncotermsCode": "BuyIncotermsCode 1",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 1",
+	"BuyCheckInvoiceEm": true,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 1",
+	"BuyTransportationMethod": "BuyTransportationMethod 1",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 1',Ekorg='Ekorg 1')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 2",
+	"Ekorg": "Ekorg 2",
+	"BuyCurrency": "BuyCurrency 2",
+	"BuyPaymentCondition": "BuyPaymentCondition 2",
+	"BuyIncotermsCode": "BuyIncotermsCode 2",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 2",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 2",
+	"BuyTransportationMethod": "BuyTransportationMethod 2",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 2',Ekorg='Ekorg 2')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 3",
+	"Ekorg": "Ekorg 3",
+	"BuyCurrency": "BuyCurrency 3",
+	"BuyPaymentCondition": "BuyPaymentCondition 3",
+	"BuyIncotermsCode": "BuyIncotermsCode 3",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 3",
+	"BuyCheckInvoiceEm": true,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 3",
+	"BuyTransportationMethod": "BuyTransportationMethod 3",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 3',Ekorg='Ekorg 3')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 4",
+	"Ekorg": "Ekorg 4",
+	"BuyCurrency": "BuyCurrency 4",
+	"BuyPaymentCondition": "BuyPaymentCondition 4",
+	"BuyIncotermsCode": "BuyIncotermsCode 4",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 4",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 4",
+	"BuyTransportationMethod": "BuyTransportationMethod 4",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 4',Ekorg='Ekorg 4')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 5",
+	"Ekorg": "Ekorg 5",
+	"BuyCurrency": "BuyCurrency 5",
+	"BuyPaymentCondition": "BuyPaymentCondition 5",
+	"BuyIncotermsCode": "BuyIncotermsCode 5",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 5",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 5",
+	"BuyTransportationMethod": "BuyTransportationMethod 5",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 5',Ekorg='Ekorg 5')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 6",
+	"Ekorg": "Ekorg 6",
+	"BuyCurrency": "BuyCurrency 6",
+	"BuyPaymentCondition": "BuyPaymentCondition 6",
+	"BuyIncotermsCode": "BuyIncotermsCode 6",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 6",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 6",
+	"BuyTransportationMethod": "BuyTransportationMethod 6",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 6',Ekorg='Ekorg 6')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 7",
+	"Ekorg": "Ekorg 7",
+	"BuyCurrency": "BuyCurrency 7",
+	"BuyPaymentCondition": "BuyPaymentCondition 7",
+	"BuyIncotermsCode": "BuyIncotermsCode 7",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 7",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 7",
+	"BuyTransportationMethod": "BuyTransportationMethod 7",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 7',Ekorg='Ekorg 7')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 8",
+	"Ekorg": "Ekorg 8",
+	"BuyCurrency": "BuyCurrency 8",
+	"BuyPaymentCondition": "BuyPaymentCondition 8",
+	"BuyIncotermsCode": "BuyIncotermsCode 8",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 8",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 8",
+	"BuyTransportationMethod": "BuyTransportationMethod 8",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 8',Ekorg='Ekorg 8')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 9",
+	"Ekorg": "Ekorg 9",
+	"BuyCurrency": "BuyCurrency 9",
+	"BuyPaymentCondition": "BuyPaymentCondition 9",
+	"BuyIncotermsCode": "BuyIncotermsCode 9",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 9",
+	"BuyCheckInvoiceEm": false,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 9",
+	"BuyTransportationMethod": "BuyTransportationMethod 9",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 9',Ekorg='Ekorg 9')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}, {
+	"SupplierId": "ParticipationId 10",
+	"Ekorg": "Ekorg 10",
+	"BuyCurrency": "BuyCurrency 10",
+	"BuyPaymentCondition": "BuyPaymentCondition 10",
+	"BuyIncotermsCode": "BuyIncotermsCode 10",
+	"BuyIncotermsPlace": "BuyIncotermsPlace 10",
+	"BuyCheckInvoiceEm": true,
+	"PurchaseOrganizationId": "PurchaseOrganizationId 10",
+	"BuyTransportationMethod": "BuyTransportationMethod 10",
+	"__metadata": {
+		"uri": "SupplierPurOrgSet(SupplierId='SupplierId 10',Ekorg='Ekorg 10')",
+		"type": "ZVIP_PROJECT_SRV.SupplierPurOrg"
+	}
+}]

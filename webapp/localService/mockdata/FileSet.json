@@ -1,0 +1,91 @@
+[{
+	"FileName": "FileName 1",
+	"User": "User 1",
+	"MimeType": "MimeType 1",
+	"Content": "01000011001001011111101111100100",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 1',User='User 1')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 2",
+	"User": "User 2",
+	"MimeType": "MimeType 2",
+	"Content": "00111010000011110111101101110011",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 2',User='User 2')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 3",
+	"User": "User 3",
+	"MimeType": "MimeType 3",
+	"Content": "01001001110011011101011101100100",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 3',User='User 3')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 4",
+	"User": "User 4",
+	"MimeType": "MimeType 4",
+	"Content": "00111101110100010011100110100101",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 4',User='User 4')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 5",
+	"User": "User 5",
+	"MimeType": "MimeType 5",
+	"Content": "01110001001110110110101000001001",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 5',User='User 5')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 6",
+	"User": "User 6",
+	"MimeType": "MimeType 6",
+	"Content": "00111011011000110001100111101100",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 6',User='User 6')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 7",
+	"User": "User 7",
+	"MimeType": "MimeType 7",
+	"Content": "10101010000000110111111111101001",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 7',User='User 7')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 8",
+	"User": "User 8",
+	"MimeType": "MimeType 8",
+	"Content": "00011010011101001010110001001111",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 8',User='User 8')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 9",
+	"User": "User 9",
+	"MimeType": "MimeType 9",
+	"Content": "11000010010111101101111101010101",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 9',User='User 9')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}, {
+	"FileName": "FileName 10",
+	"User": "User 10",
+	"MimeType": "MimeType 10",
+	"Content": "01110000110000000010100001110010",
+	"__metadata": {
+		"uri": "FileSet(FileName='FileName 10',User='User 10')",
+		"type": "ZVIP_PROJECT_SRV.File"
+	}
+}]
